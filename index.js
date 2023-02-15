@@ -33,13 +33,13 @@ close_btn.addEventListener("click", function () {
 
 // collaspe
 
-$('.collapse').collapse({ toggle: false });
-function myfunction(){
-   $('.collapse').collapse('show');
-}
-function myfunction2(){
-  $('.collapse').collapse('hide');
-}
+// document.querySelector('.collapse').collapse({ toggle: false });
+// function myfunction(){
+//    $('.collapse').collapse('show');
+// }
+// function myfunction2(){
+//   $('.collapse').collapse('hide');
+// }
 
 
 
@@ -106,3 +106,43 @@ tl
 },'c')
 
 /* ------our service animations end ---- */
+
+
+
+
+// testimonials horizontal drag scroll
+var testimonialsCardScrollWrapper = document.querySelector('.testimonials_card-scroll-wrapper');
+var isDown = false;
+var startX;
+var scrollLeft;
+
+testimonialsCardScrollWrapper.addEventListener('mousedown', function(e) {
+  isDown = true;
+  startX = e.pageX - testimonialsCardScrollWrapper.offsetLeft;
+  scrollLeft = testimonialsCardScrollWrapper.scrollLeft;
+  testimonialsCardScrollWrapper.style.cursor = 'grabbing';
+});
+
+testimonialsCardScrollWrapper.addEventListener('mouseleave', function() {
+  isDown = false;
+  testimonialsCardScrollWrapper.style.cursor = 'grab';
+});
+
+testimonialsCardScrollWrapper.addEventListener('mouseup', function() {
+  isDown = false;
+  testimonialsCardScrollWrapper.style.cursor = 'grab';
+});
+
+testimonialsCardScrollWrapper.addEventListener('mousemove', function(e) {
+  if (!isDown) return;
+  e.preventDefault();
+  var x = e.pageX - testimonialsCardScrollWrapper.offsetLeft;
+  var walk = (x - startX) * 3;
+  testimonialsCardScrollWrapper.scrollLeft = scrollLeft - walk;
+});
+
+testimonialsCardScrollWrapper.addEventListener('wheel', function(e) {
+  e.preventDefault();
+  testimonialsCardScrollWrapper.scrollLeft += e.deltaY;
+});
+
