@@ -110,6 +110,8 @@ tl
 
 
 
+
+
 // testimonials horizontal drag scroll
 var testimonialsCardScrollWrapper = document.querySelector('.testimonials_card-scroll-wrapper');
 var isDown = false;
@@ -120,17 +122,17 @@ testimonialsCardScrollWrapper.addEventListener('mousedown', function(e) {
   isDown = true;
   startX = e.pageX - testimonialsCardScrollWrapper.offsetLeft;
   scrollLeft = testimonialsCardScrollWrapper.scrollLeft;
-  testimonialsCardScrollWrapper.style.cursor = 'grabbing';
+  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
 });
 
 testimonialsCardScrollWrapper.addEventListener('mouseleave', function() {
   isDown = false;
-  testimonialsCardScrollWrapper.style.cursor = 'grab';
+  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
 });
 
 testimonialsCardScrollWrapper.addEventListener('mouseup', function() {
   isDown = false;
-  testimonialsCardScrollWrapper.style.cursor = 'grab';
+  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
 });
 
 testimonialsCardScrollWrapper.addEventListener('mousemove', function(e) {

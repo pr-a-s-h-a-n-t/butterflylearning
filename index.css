@@ -589,11 +589,11 @@ header .btn {
 /* Testimonials  */
 
 .testimonials {
-  display: flex;
+  /* display: flex;*/
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-start;  
 
-  /* isolation: isolate; */
+  isolation: isolate;
    
   max-width: 95%;
   min-height: 655px;
@@ -663,9 +663,7 @@ header .btn {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+  cursor: url('assets/drag-icon.png'), auto;
   height: 400px; /* set the height to a fixed value */
 }
 .testimonials_card-scroll-wrapper::-webkit-scrollbar {
@@ -680,17 +678,8 @@ header .btn {
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
-.testimonials_card-scroll-wrapper:hover::before {
-  content: 'Drag';
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #000;
-  color: #fff;
-  font-size: 14px;
-  padding: 4px 8px;
-  border-radius: 4px;
+.testimonials_card-scroll-wrapper:hover {
+  cursor: url('assets/drag-icon.png'), auto;
 }
 
 .testimonials_cards {
@@ -803,6 +792,18 @@ height: 24px; */
   color: #757575;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials_card-scroll-wrapper {
+    display: block;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    padding: 0;
+
+  }
+ 
 /* ================== */
 /* hide scroll */
 
@@ -848,6 +849,8 @@ transform-style: preserve-3d; */
 /*  */
 
 /*  */
+
+
 
 /* why_us */
 
@@ -1091,6 +1094,10 @@ transform-style: preserve-3d; */
   border-radius: 40px;
 }
 
+.form-control{
+  border-radius: 12px;
+}
+
 .form_wrapper {
   display: flex;
    
@@ -1156,6 +1163,7 @@ transform-style: preserve-3d; */
 .contact_btn {
   display: flex;
   flex-direction: row;
+  font-size: 1rem;
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
@@ -1164,6 +1172,8 @@ transform-style: preserve-3d; */
   height: 56px;
   background: #00b9e3;
   border-radius: 12px;
+  border: #00b9e3;
+  color: white;
 }
 
 /* ------faq--------- */
@@ -1184,6 +1194,26 @@ transform-style: preserve-3d; */
 
   color: #0094b6;
 }
+
+.faq .mb-0 > a {
+  display: block;
+  position: relative;
+}
+
+.faq .mb-0 > a:after {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+
+.faq .mb-0 > a[aria-expanded="true"]:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+
 .cllp {
   display: flex;
   align-items: center;
