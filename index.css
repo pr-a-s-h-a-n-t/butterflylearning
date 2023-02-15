@@ -589,11 +589,11 @@ header .btn {
 /* Testimonials  */
 
 .testimonials {
-  /* display: flex;
+  /* display: flex;*/
   flex-direction: row;
-  align-items: flex-start; */
+  align-items: flex-start;  
 
-  /* isolation: isolate; */
+  isolation: isolate;
    
   max-width: 95%;
   min-height: 655px;
@@ -802,6 +802,18 @@ height: 24px; */
   color: #757575;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials_card-scroll-wrapper {
+    display: block;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    padding: 0;
+
+  }
+ 
 /* ================== */
 /* hide scroll */
 
