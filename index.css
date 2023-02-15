@@ -1090,6 +1090,10 @@ transform-style: preserve-3d; */
   border-radius: 40px;
 }
 
+.form-control{
+  border-radius: 12px;
+}
+
 .form_wrapper {
   display: flex;
    
@@ -1155,6 +1159,7 @@ transform-style: preserve-3d; */
 .contact_btn {
   display: flex;
   flex-direction: row;
+  font-size: 1rem;
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
@@ -1163,6 +1168,8 @@ transform-style: preserve-3d; */
   height: 56px;
   background: #00b9e3;
   border-radius: 12px;
+  border: #00b9e3;
+  color: white;
 }
 
 /* ------faq--------- */
