@@ -584,27 +584,26 @@ header .btn {
 /* Testimonials  */
 
 .testimonials {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  align-items: flex-start; */
+  align-items: flex-start;
 
   /* isolation: isolate; */
   border: 1px solid red;
-  max-width: 95%;
+  max-width: 100%;
   min-height: 655px;
+  margin-left: 80px;
 }
 
 .testimonials_title-card {
   display: flex;
   border: 1px solid red;
-  /* testimonial */
   flex-direction: column;
   align-items: flex-start;
   padding: 64px;
   gap: 8px;
   width: 519px;
   height: 655px;
-
   background: linear-gradient(
       360deg,
       rgba(0, 0, 0, 0.2) -1.76%,
@@ -625,7 +624,6 @@ header .btn {
   width: 400px;
   height: 19px;
   border: 1px solid red;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -651,8 +649,9 @@ header .btn {
 
 .testimonials_card-scroll-wrapper {
   padding: 0px 0px 0px 48px;
+  /* display: flex; */
   gap: 24px;
-  max-width: 785px;
+  max-width: 100%;
   min-height: 655px;
   overflow-x: scroll;
   border: 1px solid rebeccapurple;
