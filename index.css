@@ -662,9 +662,7 @@ header .btn {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+  cursor: url('assets/drag-icon.png'), auto;
   height: 400px; /* set the height to a fixed value */
 }
 .testimonials_card-scroll-wrapper::-webkit-scrollbar {
@@ -679,17 +677,8 @@ header .btn {
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
-.testimonials_card-scroll-wrapper:hover::before {
-  content: 'Drag';
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #000;
-  color: #fff;
-  font-size: 14px;
-  padding: 4px 8px;
-  border-radius: 4px;
+.testimonials_card-scroll-wrapper:hover {
+  cursor: url('assets/drag-icon.png'), auto;
 }
 
 .testimonials_cards {
