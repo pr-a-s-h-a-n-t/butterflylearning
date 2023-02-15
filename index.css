@@ -24,10 +24,10 @@ ul li {
   /* border: 3px solid black; */
   padding: 14px 40px 14px 8px;
   height: 80px;
-  /* border: 1px solid red; */
+  /*   */
 }
 .logo img {
-  /* border: 1px solid red; */
+  /*   */
   width: 192.98px;
   height: 64px;
 
@@ -51,7 +51,7 @@ ul li {
 
 .nav-item-wrapper > li > a {
   height: 20px;
-  /* border: 1px solid red; */
+  /*   */
 
   /* Body/14px/Semi-bold */
 
@@ -90,7 +90,7 @@ header .btn {
 
 /* @media (max-width: 768px) {
   .logo img {
-    border: 1px solid red;
+     
     width: 120px;
     height: 40px;
     top: calc(50% - 40px / 2); */
@@ -139,7 +139,7 @@ header .btn {
     flex-direction: column !important;
     max-width: 160px;
     height: 480px;
-    border: 1px solid blue;
+     
     background: #ffffff;
     border-radius: 24px 0px 0px 24px;
     top: 0;
@@ -158,13 +158,13 @@ header .btn {
     top: 0;
     right: 0;
     margin: 16px;
-    /* border: 1px solid red; */
+    /*   */
   }
 
   .nav-item-wrapper {
     /* position: relative; */
 
-    /* border: 1px solid red; */
+    /*   */
     height: 100% !important;
     width: 100%;
     margin-top: 16px;
@@ -208,7 +208,7 @@ header .btn {
   align-items: flex-start;
   padding: 0px 16px;
   gap: 1rem;
-  border: 1px solid red;
+   
 
   max-width: 27.6875rem;
   min-height: 12rem;
@@ -245,7 +245,7 @@ header .btn {
 .hero-image {
   background-image: url(./assets/MaskGroup.png);
 
-  border: 1px solid red;
+   
 
   border-radius: 1.875rem;
   height: clamp(514.5px, 45rem, 45rem);
@@ -268,7 +268,7 @@ header .btn {
 
   max-width: clamp(32rem, 67vw, 45.25rem);
   min-height: 15rem;
-  border: 1px solid red;
+   
   margin-top: 3rem;
   margin-left: 2.5rem;
 }
@@ -304,7 +304,11 @@ header .btn {
   text-align: center;
   color: #ffffff;
   margin-top: clamp(16px, 32px, 32px);
+  border: #00b9e3;
+  
 }
+
+
 .rectangle-container {
   background-image: url(./assets/Rectangle\ 33.png);
   width: 12.4375rem;
@@ -351,7 +355,7 @@ header .btn {
   background: #ffffff;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
   border-radius: 40px;
-  border: 1px solid red;
+   
   margin: -6rem auto !important;
 }
 
@@ -367,7 +371,7 @@ header .btn {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #757575;
-  border: 1px solid red;
+   
 }
 .stats-block-wrapper {
   padding: 0px;
@@ -375,13 +379,13 @@ header .btn {
   max-width: 91%;
   min-height: 92px;
   margin: auto;
-  border: 1px solid red;
+   
 }
 
 .stats-block {
   padding: 0px;
   gap: 8px;
-  border: 1px solid red;
+   
   margin: auto;
   min-width: 240px;
   /* height: 92px;  */
@@ -389,7 +393,7 @@ header .btn {
 .stats-block h2 {
   max-width: 100%;
   height: 56px;
-  border: 1px solid black;
+   
 
   font-family: "Inter";
   font-style: normal;
@@ -429,7 +433,7 @@ header .btn {
   justify-content: center;
   gap: 120px;
   max-width: 100%;
-  border: 10px solid #00b9e3;
+   
   background: #ffffff;
   box-shadow: 0px 20px 32px rgba(0, 0, 0, 0.04);
   border-radius: 0rem 0rem 5rem 5rem;
@@ -439,20 +443,20 @@ header .btn {
 /* feature section */
 .feature {
   justify-content: space-between;
-  border: 1px solid red;
+   
   max-width: 90%;
   margin: 80px;
 }
 
 .feature_section-title {
-  border: 1px solid red;
+   
   height: fit-content;
   position: sticky;
   top: 2rem;
   left: 0;
 }
 .feature_section-title h6 {
-  border: 1px solid red;
+   
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -468,7 +472,7 @@ header .btn {
   font-weight: 700;
   font-size: clamp(32px, 20vw, 48px) !important;
   line-height: clamp(40px, 100vw, 56px) !important;
-  border: 1px solid red;
+   
   color: #0094b6;
 }
 
@@ -476,7 +480,7 @@ header .btn {
   max-width: 100%;
   align-items: flex-start;
   gap: 24px !important;
-  border: 10px solid wheat;
+
   height: fit-content;
 
   scroll-behavior: smooth;
@@ -500,7 +504,7 @@ header .btn {
   flex-direction: column;
   margin: auto;
   padding: 48px;
-  border: 1px solid rebeccapurple;
+   
   max-width: 628px;
   min-height: 330px;
   background: #fffaf8;
@@ -525,7 +529,7 @@ header .btn {
 .feature_section-cards-img img {
   width: 10rem;
   height: 8.125rem;
-  border: 1px solid black;
+   
 }
 
 .feature_section-cards-text p {
@@ -548,7 +552,8 @@ header .btn {
   width: 100% !important;
   height: 4.25rem;
   background: #00b9e3;
-  border-radius: 1rem;
+  border-radius: 12px;
+  border: #00b9e3;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -589,14 +594,14 @@ header .btn {
   align-items: flex-start; */
 
   /* isolation: isolate; */
-  border: 1px solid red;
+   
   max-width: 95%;
   min-height: 655px;
 }
 
 .testimonials_title-card {
   display: flex;
-  border: 1px solid red;
+   
   /* testimonial */
   flex-direction: column;
   align-items: flex-start;
@@ -624,7 +629,7 @@ header .btn {
 .testimonials_title-card-heading h6 {
   width: 400px;
   height: 19px;
-  border: 1px solid red;
+   
 
   font-family: "Inter";
   font-style: normal;
@@ -639,7 +644,7 @@ header .btn {
 .testimonials_title-card-text h2 {
   width: 400px;
   height: 112px;
-  border: 1px solid red;
+   
   padding-right: 3rem;
   font-family: "Inter";
   font-style: normal;
@@ -655,7 +660,36 @@ header .btn {
   max-width: 785px;
   min-height: 655px;
   overflow-x: scroll;
-  border: 1px solid rebeccapurple;
+  overflow-y: hidden;
+  white-space: nowrap;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  height: 400px; /* set the height to a fixed value */
+}
+.testimonials_card-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.testimonials_card-scroll-wrapper{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.testimonials_card-scroll-wrapper:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.testimonials_card-scroll-wrapper:hover::before {
+  content: 'Drag';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 .testimonials_cards {
@@ -665,7 +699,7 @@ header .btn {
   align-items: flex-start;
   padding: 56px 32px;
   isolation: isolate;
-  border: 1px solid rebeccapurple;
+   
   min-width: 411px;
   height: 655px;
   background: #f7f7f7;
@@ -678,7 +712,7 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 29px;
-  border: 1px solid rebeccapurple;
+   
   width: 347px;
   height: 233.98px;
   flex: none;
@@ -690,7 +724,7 @@ header .btn {
 .testimonials_cards-review-text {
   width: 347px;
   height: 174px;
-  border: 1px solid rebeccapurple;
+   
   font-family: "Inter";
   font-style: italic;
   font-weight: 400;
@@ -712,7 +746,7 @@ header .btn {
 #curve_line-logo {
   width: 139.87px;
   height: 117.07px;
-  border: 3px dashed #e2e2e2;
+   
   transform: rotate(4.2deg);
 }
 
@@ -725,7 +759,7 @@ header .btn {
 }
 
 .reviewer_details {
-  border: 1px solid rebeccapurple;
+   
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -742,7 +776,7 @@ header .btn {
 .reviewer_details_student-name {
   display: flex;
   flex-direction: row;
-  background-color: #004a5b;
+  /* background-color: #004a5b; */
   /* align-items: flex-start */
 }
 
@@ -924,7 +958,7 @@ transform-style: preserve-3d; */
   max-width: 100%;
   height: 1780px;
   margin: 80px !important;
-  border: 1px solid red;
+   
 }
 .hiw_title-wrapper h6 {
   font-family: "Inter";
@@ -987,7 +1021,7 @@ transform-style: preserve-3d; */
 
   width: 411px;
   height: 384px;
-  border: 1px solid red;
+   
 }
 
 .hiw_book_Consultation_card {
@@ -1039,7 +1073,7 @@ transform-style: preserve-3d; */
 /* form */
 .contact-layout-wrapper {
   max-width: 100%;
-  border: 1px solid red;
+   
   margin: auto;
   justify-content: space-between;
   padding: 56px 64px;
@@ -1058,7 +1092,7 @@ transform-style: preserve-3d; */
 
 .form_wrapper {
   display: flex;
-  border: 5px solid blue;
+   
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
@@ -1079,13 +1113,13 @@ transform-style: preserve-3d; */
   gap: 50px;
   width: fit-content;
   /* height: 132px; */
-  border: 5px solid red;
+   
 }
 .contact_title {
   gap: 1rem;
   max-width: 19.75rem;
   min-height: 8.25rem;
-  border: 1px solid #00dfc7;
+   
 }
 .contact_title h2 {
   font-family: "Inter";
@@ -1108,7 +1142,7 @@ transform-style: preserve-3d; */
 .contact_title img {
   width: 18.9375rem;
   height: 16.125rem;
-  border: 1px solid blue;
+   
 }
 
 .form_wrapper > form input {
@@ -1135,7 +1169,7 @@ transform-style: preserve-3d; */
 .faq {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+   
   margin: 80px;
   max-width: 100%;
 }
@@ -1152,7 +1186,7 @@ transform-style: preserve-3d; */
 .cllp {
   display: flex;
   align-items: center;
-  border: 1px solid red;
+   
   justify-content: space-between;
 
   /* flex-direction: ; */
@@ -1166,11 +1200,11 @@ transform-style: preserve-3d; */
 
 footer {
   padding: 56px 80px 0;
-  border: 1px solid red;
+   
   color: #000000 !important;
 }
 .footer_list-wrapper {
-  border: 1px solid red;
+   
   color: #000000 !important;
 }
 .footer_list-wrapper ul li a {
@@ -1180,20 +1214,20 @@ footer {
   display: flex;
   align-items: baseline;
   /* vertical-align: bottom !important; */
-  border: 1px solid red;
+   
 
   /* gap: 40px; */
 }
 .abc_logo {
   width: 120px;
   height: 118px;
-  border: 1px solid rebeccapurple;
+   
 }
 .train_logo {
   width: 108px;
   height: 44px;
   display: flex;
-  border: 1px solid red;
+   
   align-items: bottom !important;
   margin-left: -8px;
   /* margin-top: 40px; */
