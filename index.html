@@ -6,73 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
+    <header id="header">
+        <a href="#" class="logo">
+            <img src="./assets/Butterfly Learnings Logo(2) 1.png" width="" class="logo-dark" alt="logo" />
 
-    <!-- Header -->
-    <header class="header ">
-        <!-- <nav class="navbar sticky-navbar"> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light   ">
-            <div class="justify-content-start">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/Butterfly Learnings Logo(2) 1.png" width="" class="logo-dark" alt="logo" />
-                </a>
+        </a>
+        <nav class="nav-bar">
+            <div class="btn" id="close-btn">
+                <i class="fas fa-times close-btn"></i>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon  "></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                <ul class="navbar-nav nav-link-wrapper">
-                    <li class="nav-item  ">
-                        <a class="nav-link" href="#">How it works <span class="sr-only">(current) </span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Centers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Mchat</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav-item-wrapper ">
+                <li>
+                    <a href="#">How it works </a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Blogs</a>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+                <li>
+                    <a href="#">Centers</a>
+                </li>
+                <li>
+                    <a href="#">Mchat</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+
+            </ul>
         </nav>
-        <!-- /.navbar-collapse -->
-        </nav>
+        <div class="btn" id="menu-btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
     </header>
+
+    <!-- </header> -->
 
 
     <!-- hero + stats wrapper -->
-    <div class="hero_stats-wrapper">
-        <!-- <div class="hero-title--wrapper">
+    <div class="hero_stats-wrapper  ">
+        <div class="hero-title-wrapper_sm m-auto  d-block d-md-none">
             <h2>
                 Helping unlock the full potential of your child
             </h2>
             <button class="title-content-btn">
                 Book Free Consultation
             </button>
-        </div> -->
+        </div>
         <div>
-            <div class="hero-image">
-                <div class="hero-title-wrapper">
+            <div class="hero-image mt-3 mt-md-0">
+                <div class="hero-title-wrapper d-none  d-md-block  ">
                     <h2>
                         Helping unlock the full potential of your child
                     </h2>
@@ -80,7 +86,7 @@
                         Book Free Consultation
                     </button>
                 </div>
-                <div class="rectangle-container">
+                <div class="rectangle-container position-absolute    ">
                     <div class="accreditation-container">
                     </div>
                 </div>
@@ -91,39 +97,39 @@
 
 
         </section>
-        <!-- stats-wrapper -->
-        <div class="stats-wrapper">
-            <div>
+        stats-wrapper
+        <div class="stats-wrapper row m-auto">
+            <div class="stats-title col-12">
                 <h6>Latest Stats</h6>
             </div>
-            <div class="stats-block-wrapper">
-                <div class="stats-block">
+            <div class="stats-block-wrapper row    ">
+                <div class=" stats-block  col-sm-12 col-md-5  col-lg-2   ">
                     <div>
-                        <h2>+1200</h2>
+                        <h2 id="children">+1200</h2>
                     </div>
                     <div>
                         <h4> Children assisted</h4>
                     </div>
                 </div>
-                <div class="stats-block">
+                <div class="stats-block  col-md-5  col-sm-12 col-lg-2  ">
                     <div>
-                        <h2>+100</h2>
+                        <h2 id="Professional">+100</h2>
                     </div>
                     <div>
                         <h4> Professional on board</h4>
                     </div>
                 </div>
-                <div class="stats-block">
+                <div class=" stats-block col-md-5  col-sm-12 col-lg-2 ">
                     <div>
-                        <h2>+5</h2>
+                        <h2 id="Centers">+5</h2>
                     </div>
                     <div>
                         <h4> Centers around India</h4>
                     </div>
                 </div>
-                <div class="stats-block">
+                <div class=" stats-block  col-md-5  col-sm-12 col-lg-2 ">
                     <div>
-                        <h2>+25</h2>
+                        <h2 id="Personalized">+25</h2>
                     </div>
                     <div>
                         <h4> Personalized courses</h4>
@@ -136,25 +142,28 @@
 
     <!-- Sections wrapper -->
 
-    <section class="sections_wrapper">
+    <section class="sections_wrapper  ">
 
 
         <!-- feature -->
 
-        <section class="feature">
-            <div class="feature_section-title">
-                <h6>
+
+
+        <section class="feature row ">
+            <aside class="feature_section-title  sticky_section   col-md-12 col-lg-4 row ">
+                <h6 col-12>
                     Special Features
                 </h6>
-                <h2>
+                <h2 col-12>
                     This is how we Stand Apart
                 </h2>
-            </div>
-            <div>
+            </aside>
 
-                <div class="feature_section-cards-wrapper">
+            <div class="col-md-12 col-lg-7 ">
+
+                <div class="feature_section-cards-wrapper    ">
                     <!-- card1 -->
-                    <div class="feature_section-cards">
+                    <div class="feature_section-cards car1">
                         <div class="feature_section-cards-img">
                             <img src="./assets/PersonalizedPrograms.png" alt="">
                         </div>
@@ -165,7 +174,8 @@
                             </h4>
 
                             <div class="feature_section-cards-text">
-                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur ultricies
+                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur
+                                    ultricies
                                     amet a augue non est tincidunt.</p>
                             </div>
 
@@ -175,7 +185,7 @@
                     </div>
 
                     <!-- card2 -->
-                    <div class="feature_section-cards">
+                    <div class="feature_section-cards car2">
                         <div class="feature_section-cards-img">
                             <img src="./assets/OnDemand.png" alt="">
                         </div>
@@ -186,7 +196,8 @@
                             </h4>
 
                             <div class="feature_section-cards-text">
-                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur ultricies
+                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur
+                                    ultricies
                                     amet
                                     a
                                     augue non est tincidunt.</p>
@@ -195,10 +206,10 @@
 
                         </div>
 
-                    </div>
+                    </div> -->
 
                     <!-- card3 -->
-                    <div class="feature_section-cards">
+                    <div class="feature_section-cards car3">
                         <div class="feature_section-cards-img">
                             <img src="./assets/accessTo.png" alt="">
                         </div>
@@ -209,7 +220,8 @@
                             </h4>
 
                             <div class="feature_section-cards-text">
-                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur ultricies
+                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur
+                                    ultricies
                                     amet
                                     a
                                     augue non est tincidunt.</p>
@@ -221,7 +233,7 @@
                     </div>
 
                     <!-- card4 -->
-                    <div class="feature_section-cards">
+                    <div class="feature_section-cards car4">
                         <div class="feature_section-cards-img">
                             <img src="./assets/G&T.png" alt="">
                         </div>
@@ -232,7 +244,8 @@
                             </h4>
 
                             <div class="feature_section-cards-text">
-                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur ultricies
+                                <p>Enim enim magna libero elit eu adipiscing in risus odio. Nunc consectetur
+                                    ultricies
                                     amet
                                     a augue non est tincidunt.</p>
                             </div>
@@ -241,21 +254,24 @@
                         </div>
 
                     </div>
-                </div>
-                <div class="feature_section-cards_freeConsultation-btn">
-                    <button>
-                        Book FREE Consultation
-                    </button>
+                    <div class="feature_section-cards_freeConsultation-btn   ">
+                        <button>
+                            Book FREE Consultation
+                        </button>
+                    </div>
                 </div>
 
             </div>
-
         </section>
 
 
+
+
+
+
         <!-- testimonials -->
-        <section class="testimonials">
-            <div class="testimonials_title-card">
+        <section class="testimonials row m-auto">
+            <div class="testimonials_title-card col-md-4 col-sm-12">
 
                 <div class="testimonials_title-card-heading">
                     <h6>testimonials</h6>
@@ -267,8 +283,9 @@
                 </div>
 
             </div>
-            <div class="testimonials_card-scroll-wrapper">
-                <div class="testimonials_cards">
+            <div class="testimonials_card-scroll-wrapper col-md-12 col-sm-12 d-md-flex ">
+                <!-- testimonials card1 -->
+                <div class="testimonials_cards col-md-2 col-sm-12 ">
 
                     <div class="testimonials_cards-review-wrapper">
                         <div class="testimonials_cards-review-logo">
@@ -293,13 +310,427 @@
                         </div>
 
                     </div>
-                    <div>
+                    <div class="reviewer_details">
+                        <div class="reviewer_details_student-name">
+
+                            <span>
+                                <h6>Parent of:</h6>
+                            </span>
+                            <span>
+                                <p>Mohini</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-age">
+
+                            <span>
+                                <h6>Age:</h6>
+                            </span>
+                            <span>
+                                <p>3 yr old girl</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-time_period">
+
+                            <span>
+                                <h6>Time period:</h6>
+                            </span>
+                            <span>
+                                <p>3.5 months into therapy</p>
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- testimonials card2 -->
+                <div class="testimonials_cards col-md-2 col-sm-12">
+
+                    <div class="testimonials_cards-review-wrapper">
+                        <div class="testimonials_cards-review-logo">
+                            <img src="./assets/testimonialreviewicon.png" alt="">
+                        </div>
+                        <div class="testimonials_cards-review-text">
+                            <p>
+                                I’m grateful for your therapy sessions, as I can see a lot of improvement in my
+                                daughter.. she now points at things and uses up to three words to communicate
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="floating_bee">
+                        <div id="curve_line-logo">
+                            <img src="./assets/rocket.png" alt="">
+
+                        </div>
+                        <!-- <div id="bee-logo">
+                            <img src="./assets/bee.png" alt="">
+                        </div> -->
+
+                    </div>
+                    <div class="reviewer_details">
+                        <div class="reviewer_details_student-name   ">
+
+                            <span>
+                                <h6>Parent of:</h6>
+                            </span>
+                            <span>
+                                <p>Rahul</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-age">
+
+                            <span>
+                                <h6>Age:</h6>
+                            </span>
+                            <span>
+                                <p>4 yr old boy</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-time_period">
+
+                            <span>
+                                <h6>Time period:</h6>
+                            </span>
+                            <span>
+                                <p>6 months into therapy</p>
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- testimonials card3 -->
+                <div class="testimonials_cards  col-md-2 col-sm-12">
+
+                    <div class="testimonials_cards-review-wrapper">
+                        <div class="testimonials_cards-review-logo">
+                            <img src="./assets/testimonialreviewicon.png" alt="">
+                        </div>
+                        <div class="testimonials_cards-review-text">
+                            <p>
+                                SB has become very expressive now by speech therapy, she speaks 3-4 word sentences
+                                properly. It was possible because of you
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="floating_bee">
+                        <div id="curve_line-logo">
+                            <img src="./assets/sun.png" alt="">
+
+                        </div>
+
+
+                    </div>
+                    <div class="reviewer_details">
+                        <div class="reviewer_details_student-name">
+
+                            <span>
+                                <h6>Parent of:</h6>
+                            </span>
+                            <span>
+                                <p>Nikita</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-age">
+
+                            <span>
+                                <h6>Age:</h6>
+                            </span>
+                            <span>
+                                <p>5 yr old girl</p>
+                            </span>
+
+                        </div>
+                        <div class="reviewer_details-time_period">
+
+                            <span>
+                                <h6>Time period:</h6>
+                            </span>
+                            <span>
+                                <p>8 months into therapy</p>
+                            </span>
+
+                        </div>
 
                     </div>
                 </div>
             </div>
 
         </section>
+
+   
+
+
+
+        </section> -->
+
+        <!-- Why us? -->
+
+         <section class="why_us">
+            <div class="why_us-title">
+                <h4>
+                    Why us?
+                </h4>
+                <h2>
+                    How can we be of service to you
+                </h2>
+            </div>
+            <div class="why_content">
+                <div>
+                    <h3>
+                        “We are in the business of building a healthier society through
+                        conscious families.”
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <p>
+                            Fluke jones' topsail bow sink poop. Aft starboard timbers bilged corsair jack. The jib furl
+                            of hail-shot. Warp coast nipper boat fluke bounty scourge landlubber. Pay league gangway
+                            crow's of topsail seas. Privateer six pinnace bilged black hail-shot or bilge. Line gaff
+                            just pinnace sloop brethren.
+                            Heave fer bow pillage ketch crack gangway cutlass. Brig hail-shot round brethren blimey
+                            quarterdeck fer. Chains line seas crimp yellow pirate gold league coast coxswain. Grog
+                            pillage lateen gun dock.Schooner yer grog on chains topsail lass on deck pink.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Heave fathom heave gangway spirits round chandler. Ipsum six scurvy pay to quarterdeck
+                            shiver gar. Belaying men blimey jones' sail main. Sheet league sails reef tender arrgh.
+                            Schooner ahoy lee blossom boatswain. Gun anchor nipper keelhaul six. Anchor just gold or gar
+                            pirate man. Mizzen run ipsum of gun driver jones' tails locker. Sink keelhaul driver shrouds
+                            pirate parrel.
+                            Main scourge mutiny boatswain men crow's arr. Pirate main ballast hempen corsair. Coxswain
+                            measured ahoy sink man weigh corsair ipsum.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>  
+
+        <!-- this is how -->
+
+         <section>
+            <div>
+                <h6>How it work?</h6>
+                <h2>
+                    This is how the magic begins
+                </h2>
+            </div>
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div></div>
+            </div>
+        </section> 
+
+
+
+
+     <!-- collaspe -->
+     <section class="faq row">
+        <div class="faq_title col-md-3">
+            <h2>Parents like to also know</h2>
+        </div>
+        <div class="col-md-7">
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo" alt="">
+            </div>
+
+            <div id="demo" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo2" alt="">
+            </div>
+
+            <div id="demo2" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo3" alt="">
+            </div>
+
+            <div id="demo3" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo4" alt="">
+            </div>
+
+            <div id="demo4" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo5" alt="">
+
+            </div>
+
+            <div id="demo5" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <div class="cllp">
+                <h3>How do I know if my child needs help?</h3>
+                <img src="./assets/collaspeLogo.png" data-bs-toggle="collapse" data-bs-target="#demo6" alt="">
+
+            </div>
+
+            <div id="demo6" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+
+        </div>
+
+
+        <!--     <button type="button"
+                    class="btn btn-default" onclick="myfunction2()">
+                <span class="glyphicon glyphicon-arrow-up">close</span>
+            </button>
+            <button type="button" onclick="myfunction()"
+                    class="btn btn-default">
+                <span class="glyphicon glyphicon-arrow-down">open</span>
+            </button> -->
+
+        <!-- <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            How do I know if my child needs help?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                        squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                        nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                        beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                        lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                        probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            At what age can my child begin sessions with Butterfly Learnings?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Research has shown that early intervention leads to better results. So it is best to seek
+                        professional help as soon as you notice any developmental delays or behavior issues that
+                        have not been solved on their own. For children below 3 years of age, our specialists can
+                        guide parents on what they can do. For children aged 4 years and above, online therapy has
+                        shown very encouraging results.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            Can I choose a session time that suits me?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                        squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                        nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                        beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                        lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                        probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            What can I expect in a typical virtual therapy session?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                        squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                        nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                        beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                        lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                        probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                            My child is fidgety. Will he/she be able to sit through a complete virtual session?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Research has shown that early intervention leads to better results. So it is best to seek
+                        professional help as soon as you notice any developmental delays or behavior issues that
+                        have not been solved on their own. For children below 3 years of age, our specialists can
+                        guide parents on what they can do. For children aged 4 years and above, online therapy has
+                        shown very encouraging results.
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        </div>
 
     </section>
 
@@ -314,11 +745,209 @@
 
 
 
+        <!-- ==========================
+          contact layout 1
+      =========================== -->
+        <section class="contact-layout   ">
+
+            <div class="contact-layout-wrapper  ">
+                <div class="  row justify-content-between">
+                    <div class="contact_title-wrapper col-sm-12   col-md-5 d-sm-none d-md-block ">
+                        <div class="contact_title ">
+
+                            <h2>Contact us</h2>
+                            <p>We would love to help you and your child out in every way possible. Fill out the form and
+                                lets
+                                start a beautiful journey.</p>
+                        </div>
+                        <div>
+                            <img src="./assets/Contactus.png" alt="">
+                        </div>
+                    </div>
+                    <div class="form_wrapper col-sm-12 w-sm-100  col-md-5 ">
+                        <form>
+                            <div class="contact_title d-sm-block d-md-none">
+                                <div>
+                                    <h2>Contact us</h2>
+                                    <p>We would love to help you and your child out in every way possible. Fill out the
+                                        form and
+                                        lets
+                                        start a beautiful journey.</p>
+                                </div>
+                                <!-- <div>
+                                    <img src="./assets/Contactus.png" alt="">
+                                </div> -->
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Parent’s name</label>
+                                <input type="name" class="form-control" id="name" placeholder="eg: Rahul Khanna"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="eg: sample@gmail.com" aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="contact" class="form-label">Contact</label>
+                                <input type="contact" placeholder="eg: 98765-12345" class="form-control" id="contact">
+                            </div>
+
+                            <button type="submit" class="contact_btn">Book FREE Consultation</button>
+                            <div class="contact_title d-sm-block d-md-none">
+                                <div>
+                                    <img src="./assets/Contactus.png" alt="">
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.contact layout 1 -->
+
+
+
+    
+
+
+    </section>
+
+
+
+    <!-- ==========================
+          Footer
+      =========================== -->
+    <!--  -->
+
+
+
+
+    <footer class=" text-center text-lg-start ">
+        <!-- Grid container -->
+        <div class="container  ">
+            <!--Grid row-->
+            <div class="row  ">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-3  ">
+
+                    <div class="footer_Butterfly_Logo">
+                        <img src="./assets/Butterfly Learnings Logo(2) 1.png" height="70" alt="" loading="lazy" />
+                    </div>
+
+
+                </div>
+                <!--Grid column-->
+                <div class=" footer_list-wrapper  col-lg-9 col-md-9 row ">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Explore</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class=""> Features</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class=""> How it works</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class=""> Centers</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class=""> Blog</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Company</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class="">About</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="">Careers</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class=""> Terms & Services</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="">Privacy Policy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Community</h5>
+
+                        <ul class="list-unstyled">
+
+                            <li class="mb-2">
+                                <a href="#!" class=""> Twitter</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class=""> LinkedIn</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="">Facebook</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Contact Us</h5>
+
+                        <div>
+                            <p>examplemail@gmail.com</p>
+                            <div>
+                                <h6>Butterfly Learnings, Thane (West)</h6>
+                                <p>Thane: 4B/1-2, High Street Mall, Kapurbawdi Junction, Thane(West) 400607</p>
+                                <p>+91 86558 66056</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+        </div>
+        <div class="footer-logo-wrapper row">
+            <div class=" col-1 abc_logo">
+                <img src="./assets/ABC.png" alt="">
+            </div>
+            <div class="col-1   train_logo  ">
+                <img src="./assets/Train.png" alt="">
+
+            </div>
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center "  >
+            © 2022 Butterfly Learnings, All Rights Reserved. by Bombay Autism Services Pvt Ltd.
+             
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <!-- End of .container -->
+
+
 
 
 
     <!-- script -->
-    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <!-- <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
@@ -326,7 +955,32 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
+    <!-- our service animations -->
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap ScrollTrigger cdn -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+        integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- end -->
+
     <script src="./index.js"></script>
 </body>
 
