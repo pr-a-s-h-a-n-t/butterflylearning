@@ -139,7 +139,7 @@ header .btn {
     flex-direction: column !important;
     max-width: 160px;
     height: 480px;
-     
+
     background: #ffffff;
     border-radius: 24px 0px 0px 24px;
     top: 0;
@@ -208,7 +208,6 @@ header .btn {
   align-items: flex-start;
   padding: 0px 16px;
   gap: 1rem;
-   
 
   max-width: 27.6875rem;
   min-height: 12rem;
@@ -245,8 +244,6 @@ header .btn {
 .hero-image {
   background-image: url(./assets/MaskGroup.png);
 
-   
-
   border-radius: 1.875rem;
   height: clamp(514.5px, 45rem, 45rem);
   background-size: cover;
@@ -268,7 +265,7 @@ header .btn {
 
   max-width: clamp(32rem, 67vw, 45.25rem);
   min-height: 15rem;
-   
+
   margin-top: 3rem;
   margin-left: 2.5rem;
 }
@@ -305,9 +302,7 @@ header .btn {
   color: #ffffff;
   margin-top: clamp(16px, 32px, 32px);
   border: #00b9e3;
-  
 }
-
 
 .rectangle-container {
   background-image: url(./assets/Rectangle\ 33.png);
@@ -355,7 +350,7 @@ header .btn {
   background: #ffffff;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
   border-radius: 40px;
-   
+
   margin: -6rem auto !important;
 }
 
@@ -371,7 +366,6 @@ header .btn {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #757575;
-   
 }
 .stats-block-wrapper {
   padding: 0px;
@@ -379,13 +373,12 @@ header .btn {
   max-width: 91%;
   min-height: 92px;
   margin: auto;
-   
 }
 
 .stats-block {
   padding: 0px;
   gap: 8px;
-   
+
   margin: auto;
   min-width: 240px;
   /* height: 92px;  */
@@ -393,7 +386,6 @@ header .btn {
 .stats-block h2 {
   max-width: 100%;
   height: 56px;
-   
 
   font-family: "Inter";
   font-style: normal;
@@ -433,7 +425,7 @@ header .btn {
   justify-content: center;
   gap: 120px;
   max-width: 100%;
-   
+
   background: #ffffff;
   box-shadow: 0px 20px 32px rgba(0, 0, 0, 0.04);
   border-radius: 0rem 0rem 5rem 5rem;
@@ -443,20 +435,18 @@ header .btn {
 /* feature section */
 .feature {
   justify-content: space-between;
-   
+
   max-width: 90%;
   margin: 80px;
 }
 
 .feature_section-title {
-   
   height: fit-content;
   position: sticky;
   top: 2rem;
   left: 0;
 }
 .feature_section-title h6 {
-   
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -472,7 +462,7 @@ header .btn {
   font-weight: 700;
   font-size: clamp(32px, 20vw, 48px) !important;
   line-height: clamp(40px, 100vw, 56px) !important;
-   
+
   color: #0094b6;
 }
 
@@ -504,7 +494,7 @@ header .btn {
   flex-direction: column;
   margin: auto;
   padding: 48px;
-   
+
   max-width: 628px;
   min-height: 330px;
   background: #fffaf8;
@@ -529,7 +519,6 @@ header .btn {
 .feature_section-cards-img img {
   width: 10rem;
   height: 8.125rem;
-   
 }
 
 .feature_section-cards-text p {
@@ -591,10 +580,10 @@ header .btn {
 .testimonials {
   /* display: flex;*/
   flex-direction: row;
-  align-items: flex-start;  
+  align-items: flex-start;
 
   isolation: isolate;
-   
+
   max-width: 95%;
   min-height: 655px;
   margin-left: 80px;
@@ -602,7 +591,7 @@ header .btn {
 
 .testimonials_title-card {
   display: flex;
-   
+
   /* testimonial */
   flex-direction: column;
   align-items: flex-start;
@@ -629,7 +618,6 @@ header .btn {
 .testimonials_title-card-heading h6 {
   width: 400px;
   height: 19px;
-   
 
   font-family: "Inter";
   font-style: normal;
@@ -644,7 +632,7 @@ header .btn {
 .testimonials_title-card-text h2 {
   width: 400px;
   height: 112px;
-   
+
   padding-right: 3rem;
   font-family: "Inter";
   font-style: normal;
@@ -663,15 +651,15 @@ header .btn {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  cursor: url('assets/drag-icon.png'), auto;
+  cursor: url("assets/drag-icon.png"), auto;
   height: 400px; /* set the height to a fixed value */
 }
 .testimonials_card-scroll-wrapper::-webkit-scrollbar {
   display: none;
 }
-.testimonials_card-scroll-wrapper{
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+.testimonials_card-scroll-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .testimonials_card-scroll-wrapper:active {
   cursor: grabbing;
@@ -679,7 +667,7 @@ header .btn {
   cursor: -webkit-grabbing;
 }
 .testimonials_card-scroll-wrapper:hover {
-  cursor: url('assets/drag-icon.png'), auto;
+  cursor: url("assets/drag-icon.png"), auto;
 }
 
 .testimonials_cards {
@@ -689,7 +677,7 @@ header .btn {
   align-items: flex-start;
   padding: 56px 32px;
   isolation: isolate;
-   
+
   min-width: 411px;
   height: 655px;
   background: #f7f7f7;
@@ -702,7 +690,7 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 29px;
-   
+
   width: 347px;
   height: 233.98px;
   flex: none;
@@ -714,7 +702,7 @@ header .btn {
 .testimonials_cards-review-text {
   width: 347px;
   height: 174px;
-   
+
   font-family: "Inter";
   font-style: italic;
   font-weight: 400;
@@ -736,7 +724,7 @@ header .btn {
 #curve_line-logo {
   width: 139.87px;
   height: 117.07px;
-   
+
   transform: rotate(4.2deg);
 }
 
@@ -749,7 +737,6 @@ header .btn {
 }
 
 .reviewer_details {
-   
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -801,7 +788,6 @@ height: 24px; */
     gap: 24px;
     margin-top: 24px;
     padding: 0;
-
   }
 }
 /* ================== */
@@ -849,8 +835,6 @@ transform-style: preserve-3d; */
 /*  */
 
 /*  */
-
-
 
 /* why_us */
 
@@ -961,8 +945,7 @@ transform-style: preserve-3d; */
   gap: 56px;
   max-width: 100%;
   height: 1780px;
-  margin: 80px !important;
-   
+  margin: 0 80px !important;
 }
 .hiw_title-wrapper h6 {
   font-family: "Inter";
@@ -1025,13 +1008,12 @@ transform-style: preserve-3d; */
 
   width: 411px;
   height: 384px;
-   
 }
 
 .hiw_book_Consultation_card {
   padding: 48px;
   gap: 40px;
-   width: 100%;
+  width: 100%;
   height: 312px;
   background: #3b9579;
   border-radius: 40px;
@@ -1077,7 +1059,7 @@ transform-style: preserve-3d; */
 /* form */
 .contact-layout-wrapper {
   max-width: 100%;
-   
+
   margin: auto;
   justify-content: space-between;
   padding: 56px 64px;
@@ -1094,13 +1076,13 @@ transform-style: preserve-3d; */
   border-radius: 40px;
 }
 
-.form-control{
+.form-control {
   border-radius: 12px;
 }
 
 .form_wrapper {
   display: flex;
-   
+
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
@@ -1121,13 +1103,11 @@ transform-style: preserve-3d; */
   gap: 50px;
   width: fit-content;
   /* height: 132px; */
-   
 }
 .contact_title {
   gap: 1rem;
   max-width: 19.75rem;
   min-height: 8.25rem;
-   
 }
 .contact_title h2 {
   font-family: "Inter";
@@ -1150,7 +1130,6 @@ transform-style: preserve-3d; */
 .contact_title img {
   width: 18.9375rem;
   height: 16.125rem;
-   
 }
 
 .form_wrapper > form input {
@@ -1177,11 +1156,11 @@ transform-style: preserve-3d; */
 }
 
 /* ------faq--------- */
+
 .faq {
   display: flex;
   justify-content: space-between;
-   
-  margin: 80px;
+  margin: 0 80px;
   max-width: 100%;
 }
 .faq_title h2 {
@@ -1190,52 +1169,76 @@ transform-style: preserve-3d; */
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  /* or 117% */
-
   color: #0094b6;
 }
-
-.faq .mb-0 > a {
-  display: block;
-  position: relative;
+#cllp {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.faq .mb-0 > a:after {
+#cllp > h3:after {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   position: absolute;
-  right: 0;
+  right: 2%;
   font-weight: 600;
 }
 
-.faq .mb-0 > a[aria-expanded="true"]:after {
+#cllp > h3[aria-expanded="true"]:after {
   content: "\f068";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
 }
 
-.cllp {
-  display: flex;
-  align-items: center;
-   
-  justify-content: space-between;
+#cllp > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
 
-  /* flex-direction: ; */
+  font-feature-settings: "cv05" on;
+
+  color: #000000;
 }
-.cllp img {
-  width: 24px;
-  height: 24px;
+
+.faq-collapse {
+  width: fit-content;
+  height: fit-content;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "cv05" on;
+  color: #545454;
+}
+
+@media (max-width: 768px) {
+  .faq {
+    
+    margin: 0 32px;
+    max-width: 100%;
+}
+  #cllp > h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .faq_title h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 
 /* -----footer-------- */
 
 footer {
   padding: 56px 80px 0;
-   
+
   color: #000000 !important;
 }
 .footer_list-wrapper {
-   
   color: #000000 !important;
 }
 .footer_list-wrapper ul li a {
@@ -1245,23 +1248,20 @@ footer {
   display: flex;
   align-items: baseline;
   /* vertical-align: bottom !important; */
-   
 
   /* gap: 40px; */
 }
 .abc_logo {
   width: 120px;
   height: 118px;
-   
 }
 .train_logo {
   width: 108px;
   height: 44px;
   display: flex;
-   
+
   align-items: bottom !important;
   margin-left: -8px;
   /* margin-top: 40px; */
   margin-top: 7%;
-
 }
