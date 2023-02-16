@@ -790,52 +790,310 @@ height: 24px; */
     padding: 0;
   }
 }
-/* ================== */
-/* hide scroll */
 
-/* .testimonials_card-scroll-wrapper::-webkit-scrollbar {
-  display: none;
+
+
+
+/* ----------Our Services----------- */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+  border: 1px solid red;
+  max-width: 100%;
+  margin: 0 80px;
+  /* height: 1880px; */
 }
 
-.testimonials_card-scroll-wrapper {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.services_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  gap: 8px;
+  border: 1px solid red;
+  max-width: 100%;
+  position: sticky;
+  top: 5%;
+  height: 88px;
+}
+.services_title-ourService p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px; 
+letter-spacing: 0.2em;
+margin: 0;
+text-transform: uppercase; 
+color: #AFAFAF;
+}
+.services_cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  max-width: 100%;
+  height: 1728px;
+}
+.services_title-ourService h6 {
+  width: 153px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #afafaf;
+}
+
+.services_title-professionals h2 {
+  width: 100%;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  color: #d48971;
+}
+.services_cards1,.services_cards2, .services_cards3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 64px 24px 24px 64px;
+  gap: 616px;
+  max-width: 100%;
+  /* height: 560px; */
+  position: sticky;
+  top:20%;
+}
+.services_cards1 {
+ 
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 50%
+    ),
+    url(./assets/Services--Block1.png), #f6f6f6;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+}
+
+.services_cards1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  border: 1px solid red;
+  width: 524px;
+  height: 472px;
+}
+.services_cards1-content > h2 {
+  width: 524px;
+  height: 58px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  /* Grey/50 */
+
+  color: #f7f7f7;
+}
+
+.services_cards1-content > p {
+  width: 496px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #eeeeee;
+}
+.services_cards2 {
+ 
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 50%
+    ),
+    url(./assets/Services--Block2.png), #f6f6f6;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+}
+
+.services_cards3 {
+  
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 50%
+    ),
+    url(./assets/Services--Block3.png), #f6f6f6;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+}
+.services_card_navigation-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 20px ; */
+  /* margin: 24px; */
+  width: 5rem;
+  height: 5rem;
+  background: #f7f7f7;
+  border-radius: 100%;
+}
+
+.services_card_navigation-arrow img {
+  max-width: 27.5px;
+  max-height: 23px;
+}
+
+/* animations test */
+/* 
+#main {
+  gap: 10vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 150vh;
+  background-color: #202020;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  margin: auto;
+  width: 90%;
+  height: 1728px;
+  border: 2px solid blue;
+}
+
+.cards {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid red;
+  color: aliceblue;
+  
+  padding: 64px 24px 24px 64px;
+   
+  border-radius: 40px;
+  
+}
+
+#card-one {
+  top: 130%;
+  background-image: url(./assets/Services--Block1.png);
+}
+.services_cards1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 524px;
+  height: 472px;
+}
+
+#card-two {
+  top: 230%;
+  background-image: url(./assets/Services--Block2.png);
+}
+
+#card-three {
+  top: 250%;
+  background-image: url(./assets/Services--Block3.png);
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-img {
+  width: 5vw;
+  height: 5vw;
+   
+}
+
+.text h1 {
+  font-size: 3vw;
+  color: #fff;
+  text-align: center;
+}
+
+.text p {
+  font-size: 1vw;
+  color: rgb(126, 126, 126);
+  text-align: center;
 } */
 
-/* =====================image animation===================== */
-/* image card scroll animation */
+/* ===============end=============== */
 
-/* -webkit-text-size-adjust: 100%;
-font-family: Inter, sans-serif;
-font-size: 1vw;
-line-height: 20px;
--webkit-box-direction: normal;
-color: #fff;
-box-sizing: border-box;
-position: absolute;
-left: 0%;
-top: 0%;
-right: 0%;
-bottom: 0%;
-width: 100%;
-height: 115%;
-max-width: 100%;
-background-position: 50% 50%;
-background-size: cover;
-background-repeat: no-repeat;
-opacity: 0.85;
-background-attachment: scroll !important;
-background-image: url("https://assets.website-files.com/6148d60a98a3dbf0ff2d6a96/6148d60a98a3db1c702d6aad_Mariage_ElisabethMathieu_HD772-full.jpg");
-will-change: transform;
-transform: translate3d(0px, -6.14685%, 0px) scale3d(1.04917, 1.04917, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-transform-style: preserve-3d; */
 
-/* =====================image animation===================== */
 
-/*  */
 
-/*  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 /* why_us */
 
 .why_us {
@@ -1056,6 +1314,8 @@ transform-style: preserve-3d; */
   }
 }
 
+
+
 /* form */
 .contact-layout-wrapper {
   max-width: 100%;
@@ -1217,10 +1477,9 @@ transform-style: preserve-3d; */
 
 @media (max-width: 768px) {
   .faq {
-    
     margin: 0 32px;
     max-width: 100%;
-}
+  }
   #cllp > h3 {
     font-size: 18px;
     line-height: 28px;
