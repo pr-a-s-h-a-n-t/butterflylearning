@@ -436,7 +436,6 @@ header .btn {
 /* feature section */
 .feature {
   justify-content: space-between;
-
   max-width: 90%;
   margin: 80px;
 }
@@ -1006,6 +1005,7 @@ height: 24px; */
 }
 .why_content {
   max-width: fit-content;
+
   /* column-gap: 24px; */
 }
 
@@ -1115,6 +1115,8 @@ height: 24px; */
 }
 
 .this_is_how {
+  position: sticky;
+  top: 2rem;
   max-width: 100%;
   height: 600px;
   background-image: url(./assets/thisIsHow.png);
@@ -1144,7 +1146,8 @@ height: 24px; */
   align-items: flex-start;
   padding: 48px;
   gap: 24px;
-
+  /* position: sticky;
+  top: 2rem; */
   width: 411px;
   height: 384px;
 }
@@ -1214,7 +1217,9 @@ height: 24px; */
   background: #ffe1d7;
   border-radius: 40px;
 }
-
+form{
+  margin: auto;
+}
 .form-control {
   border-radius: 12px;
 }
@@ -1229,6 +1234,9 @@ height: 24px; */
   width: fit-content;
   min-height: 384px;
 }
+.contact_title div img {
+  display: none;
+}
 @media (max-width: 992px) {
   .form_wrapper {
     width: 100%;
@@ -1236,6 +1244,33 @@ height: 24px; */
   .form_wrapper > form input {
     width: 100%;
   }
+  .contact_title div img {
+    position: absolute;
+    width: 135px;
+    height: 115px;
+    right: 15%;
+    display: block;
+     
+  }
+  .contact_title input{
+    width: 100%;
+
+  }
+ 
+}
+@media (max-width: 1200px) {
+  .contact_title-wrapper img {
+    display: none;
+  }
+  .contact_title div img {
+    position: absolute;
+    width: 135px;
+    height: 115px;
+    right: 15%;
+    display: block !important;
+     
+  }
+   
 }
 
 .contact_title-wrapper {
