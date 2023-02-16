@@ -432,8 +432,6 @@ header .btn {
   margin-top: 6rem;
 }
 
-
-
 /* feature section */
 .feature {
   justify-content: space-between;
@@ -982,7 +980,6 @@ height: 24px; */
   max-width: 100%;
   justify-content: space-between;
 }
-  
 
 .why_us-title h4 {
   font-family: "Inter";
@@ -1007,7 +1004,7 @@ height: 24px; */
 }
 .why_content {
   max-width: fit-content;
-  
+
   /* column-gap: 24px; */
 }
 
@@ -1138,7 +1135,7 @@ height: 24px; */
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  
+
   width: 411px;
   height: fit-content;
 }
@@ -1219,7 +1216,9 @@ height: 24px; */
   background: #ffe1d7;
   border-radius: 40px;
 }
-
+form{
+  margin: auto;
+}
 .form-control {
   border-radius: 12px;
 }
@@ -1234,6 +1233,9 @@ height: 24px; */
   width: fit-content;
   min-height: 384px;
 }
+.contact_title div img {
+  display: none;
+}
 @media (max-width: 992px) {
   .form_wrapper {
     width: 100%;
@@ -1241,6 +1243,33 @@ height: 24px; */
   .form_wrapper > form input {
     width: 100%;
   }
+  .contact_title div img {
+    position: absolute;
+    width: 135px;
+    height: 115px;
+    right: 15%;
+    display: block;
+     
+  }
+  .contact_title input{
+    width: 100%;
+
+  }
+ 
+}
+@media (max-width: 1200px) {
+  .contact_title-wrapper img {
+    display: none;
+  }
+  .contact_title div img {
+    position: absolute;
+    width: 135px;
+    height: 115px;
+    right: 15%;
+    display: block !important;
+     
+  }
+   
 }
 
 .contact_title-wrapper {
