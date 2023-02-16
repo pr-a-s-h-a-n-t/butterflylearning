@@ -1,5 +1,6 @@
 // nav bar
 let menus = document.querySelector(".nav-bar");
+let rectangle = document.querySelector(".rectangle-container");
 let menus_btn = document.querySelector(".menu-btn");
 let close_btn = document.querySelector(".close-btn");
 let close_btnid = document.querySelector("#close-btn");
@@ -12,7 +13,8 @@ menus_btn.addEventListener("click", function () {
   menus.classList.add("active2");
   resnav.style.display= "flex"
   close_btnid.style.display="block";
-  menus_btn.style.display= "none"
+  menus_btn.style.display= "none";
+  // rectangle.style.zIndex= "-1";
 
 });
 
@@ -22,6 +24,7 @@ close_btn.addEventListener("click", function () {
   resnav.style.display= "none"
   close_btnid.style.display="none";
   menus_btn.style.display= "block";
+  // rectangle.style.zIndex= "0";
 });
 
   
@@ -113,38 +116,43 @@ tl
 
 
 // testimonials horizontal drag scroll
-var testimonialsCardScrollWrapper = document.querySelector('.testimonials_card-scroll-wrapper');
-var isDown = false;
-var startX;
-var scrollLeft;
+var testimonialsCard = document.querySelector('.testimonials_card-scroll-wrapper');
+var isDragging = false;
+var startX, scrollLeft;
 
-testimonialsCardScrollWrapper.addEventListener('mousedown', function(e) {
-  isDown = true;
-  startX = e.pageX - testimonialsCardScrollWrapper.offsetLeft;
-  scrollLeft = testimonialsCardScrollWrapper.scrollLeft;
-  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
+testimonialsCard.addEventListener('mousedown', function(e) {
+  isDragging = true;
+  startX = e.pageX - testimonialsCard.offsetLeft;
+  scrollLeft = testimonialsCard.scrollLeft;
 });
 
-testimonialsCardScrollWrapper.addEventListener('mouseleave', function() {
-  isDown = false;
-  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
+testimonialsCard.addEventListener('mouseup', function(e) {
+  isDragging = false;
 });
 
-testimonialsCardScrollWrapper.addEventListener('mouseup', function() {
-  isDown = false;
-  testimonialsCardScrollWrapper.style.cursor = "url('assets/drag-icon.png'), auto;";
-});
-
-testimonialsCardScrollWrapper.addEventListener('mousemove', function(e) {
-  if (!isDown) return;
+testimonialsCard.addEventListener('mousemove', function(e) {
+  if (!isDragging) return;
   e.preventDefault();
-  var x = e.pageX - testimonialsCardScrollWrapper.offsetLeft;
+  var x = e.pageX - testimonialsCard.offsetLeft;
   var walk = (x - startX) * 3;
-  testimonialsCardScrollWrapper.scrollLeft = scrollLeft - walk;
+  testimonialsCard.scrollLeft = scrollLeft - walk;
 });
 
-testimonialsCardScrollWrapper.addEventListener('wheel', function(e) {
+testimonialsCard.addEventListener('wheel', function(e) {
   e.preventDefault();
-  testimonialsCardScrollWrapper.scrollLeft += e.deltaY;
+  var delta = e.wheelDelta;
+  testimonialsCard.scrollLeft += (delta > 0 ? -1 : 1) * 30;
 });
+
+testimonialsCard.addEventListener('scroll', function() {
+  var scrollRight = testimonialsCard.scrollWidth - testimonialsCard.clientWidth - testimonialsCard.scrollLeft;
+  if (scrollRight <= 0) {
+    document.body.style.overflowX = 'auto';
+    console.log("1nhale")
+  } else {
+    document.body.style.overflowX = 'hidden';
+    console.log("case")
+  }
+});
+
 
