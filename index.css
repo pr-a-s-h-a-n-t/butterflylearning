@@ -209,10 +209,60 @@ header .btn {
   align-items: flex-start;
   padding: 0px 16px;
   gap: 1rem;
-
   max-width: 27.6875rem;
   min-height: 12rem;
 }
+
+/* hero btn animation start*/
+ 
+.title-content-btn {
+ 
+  overflow: hidden;
+  border: unset;
+  border-radius: 10px;
+  transition: all 200ms;    
+    align-items: center; 
+    padding: 16px 24px;
+    gap: 8px;
+    width: fit-content;
+    height: 56px;
+    background: #00b9e3;
+    border-radius: 40px;
+    color: #ffffff;
+    border: #00b9e3; */
+}
+
+/* .title-content-btn:hover {
+  background-color: blue;
+} */
+
+#btn_scroll {
+  height: 80px;
+  transform: translateY(0%);
+  transition: inherit;
+}
+
+#btn_scroll:hover {
+  transform: translateY(-70%)
+}
+
+#btn_scroll p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  margin-top: 1.1rem;
+  font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+/* hero btn animation end */
+
+
 
 .hero-title-wrapper_sm h2 {
   max-width: 19.4375rem;
@@ -229,7 +279,7 @@ header .btn {
   color: #004a5b;
 }
 
-.hero-title-wrapper_sm button {
+/* .hero-title-wrapper_sm button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -240,7 +290,7 @@ header .btn {
   min-height: 2.75rem;
   background: #00b9e3;
   border-radius: 2.5rem;
-}
+} */
 
 .hero-image {
   background-image: url(./assets/MaskGroup.png);
@@ -872,7 +922,7 @@ height: 24px; */
   align-items: flex-end;
   padding: 64px 24px 24px 64px;
   gap: 616px;
-  max-width: 100%;
+  width: 100%;
   /* height: 560px; */
   position: sticky;
   top: 20%;
@@ -955,23 +1005,29 @@ height: 24px; */
   background-size: cover;
 }
 .services_card_navigation-arrow {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 0px 20px ; */
-  /* margin: 24px; */
   width: 5rem;
   height: 5rem;
-  background: #f7f7f7;
-  border-radius: 100%;
+  position: relative !important; */
+  position: relative;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+ 
 }
 
 .services_card_navigation-arrow img {
   max-width: 27.5px;
   max-height: 23px;
 }
-
+#ma{
+  /* position: fixed; */
+  /* right: 5%; */
+  max-width: 27.5px;
+  max-height: 23px;
+}
 /* ===============end=============== */
 
 /* why_us */
@@ -1217,7 +1273,7 @@ height: 24px; */
   background: #ffe1d7;
   border-radius: 40px;
 }
-form{
+form {
   margin: auto;
 }
 .form-control {
@@ -1250,13 +1306,10 @@ form{
     height: 115px;
     right: 15%;
     display: block;
-     
   }
-  .contact_title input{
+  .contact_title input {
     width: 100%;
-
   }
- 
 }
 @media (max-width: 1200px) {
   .contact_title-wrapper img {
@@ -1268,9 +1321,7 @@ form{
     height: 115px;
     right: 15%;
     display: block !important;
-     
   }
-   
 }
 
 .contact_title-wrapper {
@@ -1408,11 +1459,13 @@ form{
 
 footer {
   padding: 56px 80px 0;
-
+justify-content: flex-start;
   color: #000000 !important;
 }
 .footer_list-wrapper {
   color: #000000 !important;
+  width: 100% !important;
+  justify-content: space-between;
 }
 .footer_list-wrapper ul li a {
   color: #000000 !important;
@@ -1437,4 +1490,28 @@ footer {
   margin-left: -8px;
   /* margin-top: 40px; */
   margin-top: 7%;
+}
+.footer_Butterfly_Logo img {
+  width: 192.98px;
+  height: 64px;
+  
+}
+.footer_Butterfly_Logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 40px 24px 24px;
+  }
+ #community{
+  float: left !important;
+  
+ }
+.mb-4 {
+  
+  text-align: initial;
+}
 }
