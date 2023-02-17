@@ -885,7 +885,7 @@ height: 24px; */
   padding: 0px;
   gap: 24px;
 
-  max-width: 100%;
+  width: 100%;
   height: 1728px;
 }
 .services_title-ourService h6 {
@@ -1004,29 +1004,42 @@ height: 24px; */
   background-size: cover;
 }
 .services_card_navigation-arrow {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 5rem;
   height: 5rem;
-  position: relative !important; */
-  position: relative;
+  position: absolute;
+  right: 2%; 
   border-radius: 50%;
   background-color: #f6f6f6;
+
  
 }
 
 .services_card_navigation-arrow img {
-  max-width: 27.5px;
-  max-height: 23px;
+  width: 27.5px;
+  height: 23px;
 }
-#ma{
-  /* position: fixed; */
-  /* right: 5%; */
-  max-width: 27.5px;
-  max-height: 23px;
+ 
+@media (max-width: 1468px) {
+/* 
+  .services_card_navigation-arrow {
+    position: sticky;
+    right: 20%;
+  } */
 }
+
+
+
+
+
+
+
+
+
+
 /* ===============end=============== */
 
 /* why_us */
@@ -1208,6 +1221,8 @@ height: 24px; */
 }
 
 .hiw_book_Consultation_card {
+  display: flex;
+  flex-direction: column;
   padding: 48px;
   gap: 40px;
   width: 100%;
