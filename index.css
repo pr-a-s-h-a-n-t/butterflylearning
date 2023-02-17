@@ -1453,11 +1453,13 @@ form {
 
 footer {
   padding: 56px 80px 0;
-
+justify-content: flex-start;
   color: #000000 !important;
 }
 .footer_list-wrapper {
   color: #000000 !important;
+  width: 100% !important;
+  justify-content: space-between;
 }
 .footer_list-wrapper ul li a {
   color: #000000 !important;
@@ -1482,4 +1484,28 @@ footer {
   margin-left: -8px;
   /* margin-top: 40px; */
   margin-top: 7%;
+}
+.footer_Butterfly_Logo img {
+  width: 192.98px;
+  height: 64px;
+  
+}
+.footer_Butterfly_Logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 40px 24px 24px;
+  }
+ #community{
+  float: left !important;
+  
+ }
+.mb-4 {
+  
+  text-align: initial;
+}
 }
