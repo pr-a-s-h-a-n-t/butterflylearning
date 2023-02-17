@@ -208,7 +208,6 @@ header .btn {
   align-items: flex-start;
   padding: 0px 16px;
   gap: 1rem;
-
   max-width: 27.6875rem;
   min-height: 12rem;
 }
@@ -216,7 +215,7 @@ header .btn {
 /* hero btn animation start*/
  
 .title-content-btn {
-  margin: 20%;
+ 
   overflow: hidden;
   border: unset;
   border-radius: 10px;
@@ -922,7 +921,7 @@ height: 24px; */
   align-items: flex-end;
   padding: 64px 24px 24px 64px;
   gap: 616px;
-  max-width: 100%;
+  width: 100%;
   /* height: 560px; */
   position: sticky;
   top: 20%;
@@ -1005,23 +1004,29 @@ height: 24px; */
   background-size: cover;
 }
 .services_card_navigation-arrow {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 0px 20px ; */
-  /* margin: 24px; */
   width: 5rem;
   height: 5rem;
-  background: #f7f7f7;
-  border-radius: 100%;
+  position: relative !important; */
+  position: relative;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+ 
 }
 
 .services_card_navigation-arrow img {
   max-width: 27.5px;
   max-height: 23px;
 }
-
+#ma{
+  /* position: fixed; */
+  /* right: 5%; */
+  max-width: 27.5px;
+  max-height: 23px;
+}
 /* ===============end=============== */
 
 /* why_us */
