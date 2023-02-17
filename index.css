@@ -951,8 +951,8 @@ height: 24px; */
   height: 472px;
 }
 .services_cards1-content > h2 {
-  width: 524px;
-  height: 58px;
+  max-width: 524px;
+  min-height: 58px;
 
   font-family: "Inter";
   font-style: normal;
@@ -967,8 +967,8 @@ height: 24px; */
 }
 
 .services_cards1-content > p {
-  width: 496px;
-  height: 60px;
+  max-width: 496px;
+  min-height: auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -1023,12 +1023,19 @@ height: 24px; */
   height: 23px;
 }
  
-@media (max-width: 1468px) {
-/* 
-  .services_card_navigation-arrow {
-    position: sticky;
-    right: 20%;
-  } */
+@media (max-width: 768px) {
+
+  .services_cards1-content > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .services_cards1-content > h2 {
+    font-size: 24px;
+line-height: 32px;
+  }
+  .services {
+    margin: 0 16px;
+  }
 }
 
 
