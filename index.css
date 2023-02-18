@@ -635,6 +635,8 @@ header .btn {
   background: #fffaf8;
   border-radius: 40px;
   margin-bottom: 24px;
+  position: sticky;
+    top: 3%;
 }
 
 .car1 {
@@ -688,6 +690,8 @@ header .btn {
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: #ffffff;
+  position: sticky;
+  top: 3%;
 }
 
 @media screen and (max-width: 768px) {
