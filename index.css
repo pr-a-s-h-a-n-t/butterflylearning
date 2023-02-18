@@ -1529,7 +1529,7 @@ height: 24px; */
 /* form */
 .contact-layout-wrapper {
   max-width: 100%;
-min-height: 588px;
+  min-height: 588px;
   justify-content: space-between;
   padding: 56px 64px;
   justify-content: space-between;
@@ -1570,12 +1570,12 @@ form input {
 
 form label {
   font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-font-feature-settings: 'cv05' on;
-color: #121212;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'cv05' on;
+  color: #121212;
 }
 
 .contact_logo img {
@@ -1599,7 +1599,8 @@ color: #121212;
   form input {
     width: 100%;
   }
-  .contact_title_logo img{
+
+  .contact_title_logo img {
     display: none;
 
   }
@@ -1609,9 +1610,9 @@ color: #121212;
     width: 135px;
     height: 115px;
     right: 15%;
-    display: block;  
-     margin-bottom: -35rem !important;
-   
+    display: block;
+    margin-bottom: -35rem !important;
+
   }
 
   .contact_title h2 {
@@ -1640,7 +1641,7 @@ color: #121212;
     display: block !important;
      
   } */
-  .contact_title  {
+  .contact_title {
     /* margin-bottom: -35rem !important; */
   }
 }
@@ -1693,7 +1694,7 @@ form_ input {
 .contact_btn {
   display: flex;
   flex-direction: row;
-  margin-top:32px;
+  margin-top: 32px;
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -1735,8 +1736,8 @@ form_ input {
 #cllp>h3:after {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
-  /* position: absolute; */
-  /* right: 2%; */
+  position: absolute;
+  right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
 }
