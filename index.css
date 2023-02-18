@@ -386,9 +386,11 @@ header .btn {
   align-items: center;
   padding: 0.5rem 1.25rem 0.5rem 3.75rem;
   margin-top: clamp(35px, 1vh, 3.125rem);
-  position: relative !important;
+  /* position: relative !important; */
   right: 3%;
 }
+
+
 
 .accreditation-container {
   background-image: url(./assets/accreditation.png);
@@ -403,11 +405,37 @@ header .btn {
   justify-content: end;
 }
 
+  .translate{
+    /* transform: translateX(-5.1rem); */
+  /* position: static; 
+  margin: auto; */
+  /* opacity: 0; */
+  display: none !important;
+}
+.translateReverse{
+  /* transform: translateX(5.1rem); */
+  /* opacity: 1; */
+  display: block !important;
 
+
+}
 @media screen and (max-width: 768px) {
   .hero_stats-wrapper {
     padding: 0 9px;
   }
+  .rectangle-container {
+    /* position: absolute !important; */
+    /* right: -4.5%; */
+    /* left: 80%; */
+  }
+  
+}
+@media screen and (max-width: 1124px) {
+  .rectangle-container {
+    /* position: relative !important;
+    right: 2.5%; */
+  }
+  
 }
 
 
