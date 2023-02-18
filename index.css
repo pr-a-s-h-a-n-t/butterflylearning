@@ -4,6 +4,11 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -12,6 +17,11 @@ html {
 
 body {
   overflow-x: hidden !important;
+  display: block !important;
+  position: relative !important;
+  z-index: -9 !important;
+   min-height: 100vh;
+  
 }
 
 a {
@@ -240,14 +250,14 @@ header .btn {
   border: #00b9e3;
 
 }
-
+/* 
 .title-content-btn:hover {
   background-color: blue;
 }
 
 .hero_btn:hover {
   background-color: blue;
-}
+} */
 
 #btn_scroll_1 {
   height: 80px;
@@ -399,7 +409,7 @@ header .btn {
   text-align: center;
   color: #ffffff;
   position: absolute;
-  top: 37.8%;
+  top: 20rem;
   left: clamp(70px, 1vw, 3vw);
 
 }
@@ -541,6 +551,7 @@ header .btn {
 
 /* sections wrapper */
 .sections_wrapper {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1568,6 +1579,10 @@ height: 24px; */
   .this_is_how {
     display: none;
   }
+
+  .hiw_cards-wrapper {
+    margin: auto;
+  }
 }
 
 /* form */
@@ -1630,6 +1645,8 @@ form label {
   .contact-layout-wrapper {
     margin: 0 16px;
     padding: 32px 32px 120px;
+    margin-bottom: 24px;
+    border-radius: 85px;
   }
 
   .contact_btn {
@@ -1849,10 +1866,18 @@ form_ input {
 
 /* -----footer-------- */
 
-footer {
+.footer {
+   display: block;
   padding: 56px 80px 0;
   justify-content: flex-start;
   color: #000000 !important;
+  position: sticky !important;
+  bottom: 0;
+  left: 0;
+  z-index: -1 !important;
+  opacity: 0;
+}
+.footer{
 }
 
 .footer_list-wrapper {
