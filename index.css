@@ -392,8 +392,6 @@ header .btn {
   right: 3%;
 }
 
-
-
 .accreditation-container {
   background-image: url(./assets/accreditation.png);
   width: 132px;
@@ -407,11 +405,7 @@ header .btn {
   justify-content: end;
 }
 
-  /* .translate{
  
-  opacity: 0;
-  display: none !important;
-} */
  
 @media screen and (max-width: 768px) {
   .hero_stats-wrapper {
@@ -707,7 +701,7 @@ header .btn {
   isolation: isolate;
   max-width: 100%;
   min-height: 655px;
-  margin: 80px !important;
+  margin: 0 0 0 80px !important;
 }
 
 .testimonials_title-card {
@@ -765,7 +759,7 @@ header .btn {
 .testimonials_card-scroll-wrapper {
   padding: 0px 0px 0px 48px;
   gap: 24px;
-  /* width: 100%; */
+  /* width: %; */
   min-height: 655px;
   overflow-x: scroll;
   overflow-y: hidden;
