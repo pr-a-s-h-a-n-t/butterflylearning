@@ -1714,7 +1714,7 @@ form_ input {
   font-family: "Font Awesome 5 Free";
   /* position: absolute; */
   /* right: 2%; */
-  justify-content: space-between;
+  justify-content: space-between !important;
   font-weight: 600;
 }
 
