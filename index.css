@@ -706,7 +706,7 @@ header .btn {
 
   .feature_section-cards {
     position: sticky;
-    top: 26%;
+    top: 26% !important;
   }
 
   .feature_section-cards-wrapper {
@@ -733,6 +733,12 @@ header .btn {
 
   .feature {
     margin: 4rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .feature_section-cards {
+    top: 17%  ;
   }
 }
 
