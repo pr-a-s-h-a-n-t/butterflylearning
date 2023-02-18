@@ -1,10 +1,10 @@
 // nav bar
 let menus = document.querySelector(".nav-bar");
-let rectangle = document.querySelector(".rectangle-container");
+// let rectangle = document.querySelector(".rectangle-container");
 let menus_btn = document.querySelector(".menu-btn");
 let close_btn = document.querySelector(".close-btn");
 let close_btnid = document.querySelector("#close-btn");
-
+// let translateHeroIcon = document.querySelector("#heroLogoContainer");
 let resnav = document.querySelector(".nav-item-wrapper");
 console.log(resnav,"-----");
 
@@ -13,8 +13,9 @@ menus_btn.addEventListener("click", function () {
   menus.classList.add("active2");
   resnav.style.display= "flex"
   close_btnid.style.display="block";
-  menus_btn.style.display= "none";
-  // rectangle.style.zIndex= "-1";
+  menus_btn.style.display= "none"
+  // translateHeroIcon.classList.add("translate");
+
 
 });
 
@@ -24,7 +25,8 @@ close_btn.addEventListener("click", function () {
   resnav.style.display= "none"
   close_btnid.style.display="none";
   menus_btn.style.display= "block";
-  // rectangle.style.zIndex= "0";
+  // translateHeroIcon.classList.remove("translate");
+
 });
 
   
