@@ -1413,7 +1413,7 @@ height: 24px; */
   padding: 0px;
   gap: 44px;
   width: 411px;
-  margin: auto;
+  /* margin: auto; */
   height: fit-content;
 }
 
