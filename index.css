@@ -1529,7 +1529,7 @@ height: 24px; */
 /* form */
 .contact-layout-wrapper {
   max-width: 100%;
-
+min-height: 588px;
   justify-content: space-between;
   padding: 56px 64px;
   justify-content: space-between;
@@ -1568,7 +1568,17 @@ form input {
   height: 56px !important;
 }
 
-.contact_title div img {
+form label {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+font-feature-settings: 'cv05' on;
+color: #121212;
+}
+
+.contact_logo img {
   display: none;
 }
 
@@ -1589,13 +1599,19 @@ form input {
   form input {
     width: 100%;
   }
+  .contact_title_logo img{
+    display: none;
 
-  .contact_title div img {
+  }
+
+  .contact_logo img {
     position: absolute;
     width: 135px;
     height: 115px;
     right: 15%;
-    display: block;
+    display: block;  
+     margin-bottom: -35rem !important;
+   
   }
 
   .contact_title h2 {
@@ -1612,16 +1628,20 @@ form input {
 }
 
 @media (max-width: 1200px) {
-  .contact_title-wrapper img {
+  /* .contact_title-wrapper img {
     display: none;
-  }
+  } */
 
-  .contact_title div img {
+  /* .contact_logo  img {
     position: absolute;
     width: 135px;
     height: 115px;
     right: 15%;
     display: block !important;
+     
+  } */
+  .contact_title  {
+    /* margin-bottom: -35rem !important; */
   }
 }
 
@@ -1656,9 +1676,10 @@ form input {
   color: #333333;
 }
 
-.contact_title img {
+.contact_title_logo img {
   width: 18.9375rem;
   height: 16.125rem;
+  margin-bottom: -21rem !important;
 }
 
 form_ input {
@@ -1672,6 +1693,7 @@ form_ input {
 .contact_btn {
   display: flex;
   flex-direction: row;
+  margin-top:32px;
   font-size: 1rem;
   justify-content: center;
   align-items: center;
