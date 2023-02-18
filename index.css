@@ -160,7 +160,7 @@ header .btn {
     border-radius: 24px 0px 0px 24px;
     top: 0;
     right: 0;
-    transition: all 0.9s;
+    transition: all linear 1s !important ;
     color: #121212;
   }
 
@@ -1648,13 +1648,16 @@ form label {
     margin-bottom: 24px;
     border-radius: 85px;
   }
-
+  .contact_title-wrapper {
+    margin: auto;
+  }
   .contact_btn {
     height: 52px !important;
   }
 
   .form_wrapper {
     width: 100%;
+    margin: auto;
   }
 
   form input {
@@ -1801,12 +1804,14 @@ form_ input {
   right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
+  transition: all linear 1s !important ;
 }
 
 #cllp>h3[aria-expanded="true"]:after {
   content: "\f068";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
+  transition: all linear 1s !important ;
 }
 
 #cllp>h3 {
@@ -1817,10 +1822,13 @@ form_ input {
   line-height: 32px;
   display: contents;
   font-feature-settings: "cv05" on;
-
+  transition: all linear 1s !important ;
   color: #000000;
 }
+.collapse{
+  transition: all linear 1s !important ;
 
+}
 .faq-collapse {
   width: fit-content;
   height: fit-content;
@@ -1831,6 +1839,7 @@ form_ input {
   line-height: 24px;
   font-feature-settings: "cv05" on;
   color: #545454;
+  transition: all linear 1s !important ;
 }
 
 .faq_list_wrapper {
