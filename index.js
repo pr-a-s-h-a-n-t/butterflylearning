@@ -24,7 +24,7 @@ close_btn.addEventListener("click", function () {
   resnav.style.display= "none"
   close_btnid.style.display="none";
   menus_btn.style.display= "block";
-  translateHeroIcon.classList.add("translateReverse");
+  translateHeroIcon.classList.remove("translate");
 
 });
 
