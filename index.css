@@ -19,11 +19,22 @@ html {
 
 body {
   overflow-x: hidden !important;
-  display: block !important;
-  position: relative !important;
-  z-index: -9 !important;
-  min-height: 100vh;
+}
 
+header {
+  position: relative;
+  z-index: 5;
+}
+
+.box {
+  position: fixed;
+  height: 110vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: #000000;
+  opacity: 0.5;
+  margin-top: -10vh;
+  display: none;
 }
 
 a {
@@ -512,7 +523,7 @@ header .btn {
   padding: 0.5rem 1.25rem 0.5rem 3.75rem;
   margin-top: clamp(35px, 1vh, 3.125rem);
   /* position: relative !important; */
-  right: 0%;
+  right: -1%;
 }
 
 .accreditation-container {
@@ -535,6 +546,11 @@ header .btn {
     padding: 0 9px;
   }
 
+  .rectangle-container {
+    /* position: absolute !important; */
+    right: -1.23%;
+    /* left: 80%; */
+  }
 
 }
 
