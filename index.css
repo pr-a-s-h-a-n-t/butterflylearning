@@ -161,7 +161,8 @@ header .btn {
     border-radius: 24px 0px 0px 24px;
     top: 0;
     right: 0;
-    transition: all linear 1s !important;
+    transition: all ease-in-out 1.26s !important;
+    /* -webkit-transition: all 1.26s ease-in-out !important; */
     color: #121212;
   }
 
@@ -1554,31 +1555,7 @@ height: 24px; */
     top: 26%; */
   }
 
-  /* .hiw_title-wrapper {
-    position: sticky;
-    top: 2% !important;
-  }
-  .this_is_how_sm{
-    position: sticky !important;
-    top: 10% !important;
-  }
-  .hiw_book_Consultation_card{
-    position: sticky !important;
-    top: 47% !important;
-  } */
 
-  /* .this_is_how_sm {
-    display: block !important;
-    max-width: 100%;
-    height: 228.67px;
-    border-radius: 40px;
-    background-image: url(./assets/thisIsHow.png);
-
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
 
 }
 
@@ -1589,7 +1566,7 @@ height: 24px; */
     height: 390px;
     border-radius: 40px;
     background-image: url(./assets/thisIsHow.png);
-margin: auto;
+    margin: auto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1603,18 +1580,6 @@ margin: auto;
     margin: 0 16px !important;
   }
 
-  /* .this_is_how_sm {
-    display: block !important;
-    max-width: 100%;
-    height: 228.67px;
-    border-radius: 40px;
-    background-image: url(./assets/thisIsHow.png);
-
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
 
   .this_is_how {
     display: none;
@@ -1734,23 +1699,6 @@ form label {
   }
 }
 
-@media (max-width: 1200px) {
-  /* .contact_title-wrapper img {
-    display: none;
-  } */
-
-  /* .contact_logo  img {
-    position: absolute;
-    width: 135px;
-    height: 115px;
-    right: 15%;
-    display: block !important;
-     
-  } */
-  .contact_title {
-    /* margin-bottom: -35rem !important; */
-  }
-}
 
 .contact_title-wrapper {
   gap: 50px;
