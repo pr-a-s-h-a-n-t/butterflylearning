@@ -42,12 +42,81 @@ ul li {
   max-width: 100%;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
-  /* border: 3px solid black; */
+  
   padding: 14px 40px 14px 8px;
   height: 80px;
-  /*   */
+   
 }
 
+/* page load animation */
+/* body {
+  animation: fadeInAnimation ease 9s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hero_stats-wrapper {
+  animation: transform ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hero-title-wrapper_sm,.hero-title-wrapper, .stats-wrapper  {
+  animation:2s  ease-out 5s slideInTop ;
+  
+}
+
+.rectangle-container{
+   
+  animation:2s  ease-out 5s slideInRight ;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+     
+  }
+
+  100% {
+    opacity: 1;
+    ;
+
+  }
+}
+
+@keyframes transform {
+  0% {
+    -webkit-transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes slideInTop{
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+  
+    transition-delay: 9ms;
+
+    transform: translateX(50%);
+  }
+  100% {
+    transition-delay: 9ms;
+    transform: translateX(0);
+  }
+} */
+
+
+/* animation end */
 .logo img {
   /*   */
   width: 192.98px;
