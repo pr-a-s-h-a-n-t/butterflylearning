@@ -1,10 +1,10 @@
 // nav bar
 let menus = document.querySelector(".nav-bar");
-// let rectangle = document.querySelector(".rectangle-container");
+ 
 let menus_btn = document.querySelector(".menu-btn");
 let close_btn = document.querySelector(".close-btn");
 let close_btnid = document.querySelector("#close-btn");
-// let translateHeroIcon = document.querySelector("#heroLogoContainer");
+ 
 let resnav = document.querySelector(".nav-item-wrapper");
 let header = document.querySelector("#header");
 let body = document.querySelector(".box");
