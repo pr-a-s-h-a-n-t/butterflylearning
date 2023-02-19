@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 *,
 *:before,
 *:after {
@@ -20,8 +21,8 @@ body {
   display: block !important;
   position: relative !important;
   z-index: -9 !important;
-   min-height: 100vh;
-  
+  min-height: 100vh;
+
 }
 
 a {
@@ -160,7 +161,7 @@ header .btn {
     border-radius: 24px 0px 0px 24px;
     top: 0;
     right: 0;
-    transition: all linear 1s !important ;
+    transition: all linear 1s !important;
     color: #121212;
   }
 
@@ -250,6 +251,7 @@ header .btn {
   border: #00b9e3;
 
 }
+
 /* 
 .title-content-btn:hover {
   background-color: blue;
@@ -551,7 +553,7 @@ header .btn {
 
 /* sections wrapper */
 .sections_wrapper {
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -636,7 +638,7 @@ header .btn {
   border-radius: 40px;
   margin-bottom: 24px;
   position: sticky;
-    top: 3%;
+  top: 3%;
 }
 
 .car1 {
@@ -738,7 +740,7 @@ header .btn {
 
 @media screen and (max-width: 968px) {
   .feature_section-cards {
-    top: 17%  ;
+    top: 17%;
   }
 }
 
@@ -1521,7 +1523,7 @@ height: 24px; */
   border-radius: 40px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hiw_title-wrapper h6 {
     font-size: 14px;
     line-height: 20px;
@@ -1565,15 +1567,7 @@ height: 24px; */
     top: 47% !important;
   } */
 
-}
-
-@media screen and (max-width: 1122px) {
-
-  .how_it_works {
-    margin: 0 16px !important;
-  }
-
-  .this_is_how_sm {
+  /* .this_is_how_sm {
     display: block !important;
     max-width: 100%;
     height: 228.67px;
@@ -1584,7 +1578,43 @@ height: 24px; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+  } */
+
+}
+
+@media screen and (max-width: 994px) {
+  .this_is_how_sm {
+    display: block !important;
+    width: 90%;
+    height: 390px;
+    border-radius: 40px;
+    background-image: url(./assets/thisIsHow.png);
+margin: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
+
+@media screen and (max-width: 1122px) {
+
+  .how_it_works {
+    margin: 0 16px !important;
+  }
+
+  /* .this_is_how_sm {
+    display: block !important;
+    max-width: 100%;
+    height: 228.67px;
+    border-radius: 40px;
+    background-image: url(./assets/thisIsHow.png);
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
 
   .this_is_how {
     display: none;
@@ -1658,9 +1688,11 @@ form label {
     margin-bottom: 24px;
     border-radius: 85px;
   }
+
   .contact_title-wrapper {
     margin: auto;
   }
+
   .contact_btn {
     height: 52px !important;
   }
@@ -1814,14 +1846,14 @@ form_ input {
   right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
-  transition: all linear 1s !important ;
+  transition: all linear 1s !important;
 }
 
 #cllp>h3[aria-expanded="true"]:after {
   content: "\f068";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  transition: all linear 1s !important ;
+  transition: all linear 1s !important;
 }
 
 #cllp>h3 {
@@ -1832,13 +1864,15 @@ form_ input {
   line-height: 32px;
   display: contents;
   font-feature-settings: "cv05" on;
-  transition: all linear 1s !important ;
+  transition: all linear 1s !important;
   color: #000000;
 }
-.collapse{
-  transition: all linear 1s !important ;
+
+.collapse {
+  transition: all linear 1s !important;
 
 }
+
 .faq-collapse {
   width: fit-content;
   height: fit-content;
@@ -1849,7 +1883,7 @@ form_ input {
   line-height: 24px;
   font-feature-settings: "cv05" on;
   color: #545454;
-  transition: all linear 1s !important ;
+  transition: all linear 1s !important;
 }
 
 .faq_list_wrapper {
@@ -1886,7 +1920,7 @@ form_ input {
 /* -----footer-------- */
 
 .footer {
-   display: block;
+  display: block;
   padding: 56px 80px 0;
   justify-content: flex-start;
   color: #000000 !important;
@@ -1896,8 +1930,8 @@ form_ input {
   z-index: -1 !important;
   opacity: 0;
 }
-.footer{
-}
+
+.footer {}
 
 .footer_list-wrapper {
   color: #000000 !important;
