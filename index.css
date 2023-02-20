@@ -61,7 +61,7 @@ ul li {
 }
 
 /* page load animation */
- .hero_stats-wrapper {
+ /* .hero_stats-wrapper {
   animation: fadeInAnimation ease 9s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -133,7 +133,7 @@ ul li {
     transition-delay: 9ms;
     transform: translateX(0);
   }
-} */
+}   */
 
 */
 
