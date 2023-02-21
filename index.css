@@ -1444,6 +1444,7 @@ header .btn {
   right: 2%;
   border-radius: 50%;
   background-color: #f6f6f6;
+  margin-top: 13rem;
 
 
 }
@@ -1458,6 +1459,7 @@ header .btn {
   .services_cards1-content>p {
     font-size: 14px;
     line-height: 20px;
+    margin-top: -1rem;
   }
 
   .services_cards1-content>h2 {
@@ -1474,6 +1476,11 @@ header .btn {
     gap: 24px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), ;
     border-radius: 40px;
+    align-items: baseline;
+  }
+
+  .services_card_navigation-arrow {
+    margin-top: 13rem;
   }
 
   .services {
@@ -1482,7 +1489,7 @@ header .btn {
 
   .services_cards1-content {
     gap: 16px;
-
+    
     width: 287px;
     height: 207px;
   }
@@ -2090,7 +2097,9 @@ form_ input {
     display: flex;
     display: contents;
   }
-
+.faq_title{
+  width: 311px;
+}
   .faq_title h2 {
     font-size: 32px;
     line-height: 40px;
@@ -2100,6 +2109,7 @@ form_ input {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-top: 40px;
   }
 }
 
