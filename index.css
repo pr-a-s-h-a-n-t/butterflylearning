@@ -680,8 +680,10 @@ header .btn {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(14px, 100vw, 16px) !important;
-  line-height: clamp(20px, 100vw, 24px) !important;
+  /* font-size: clamp(14px, 100vw, 16px) !important;
+  line-height: clamp(20px, 100vw, 24px) !important; */
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #afafaf;
@@ -691,8 +693,10 @@ header .btn {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(32px, 20vw, 48px) !important;
-  line-height: clamp(40px, 100vw, 56px) !important;
+  /* font-size: clamp(32px, 20vw, 48px) !important;
+  line-height: clamp(40px, 100vw, 56px) !important; */
+  font-size: 48px;
+  line-height: 56px;
   color: #0094b6;
 }
 
@@ -727,7 +731,6 @@ header .btn {
   flex-direction: column;
   margin: auto;
   padding: 48px;
-
   max-width: 628px;
   min-height: 330px;
   background: #fffaf8;
@@ -757,6 +760,20 @@ header .btn {
 .feature_section-cards-img img {
   width: 10rem;
   height: 8.125rem;
+}
+
+.feature_section-cards-heading h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+
+  /* Grey/900 */
+
+  color: #121212;
 }
 
 .feature_section-cards-text p {
@@ -808,7 +825,8 @@ header .btn {
     top: 38% !important;
     padding: 32px;
     gap: 32px;
-    width: 343px;
+    /* width: 343px; */
+    max-width: 100%;
     height: 325.25px;
     background: #F5FBFC;
     border: 16px solid #FFFFFF;
@@ -817,6 +835,8 @@ header .btn {
 
   .feature_section-cards-wrapper {
     padding-top: 1.5rem;
+    max-width: 100%;
+    margin: 0;
   }
 
   .feature_section-cards-img img {
@@ -840,12 +860,35 @@ header .btn {
   .feature {
     margin: 4rem 1rem 0 1rem;
   }
+
+  .feature_section-title h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .feature_section-title h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .feature_section-cards-heading h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .feature_section-cards-text p {
+    font-weight: 400;
+    font-size: 14px;
+
+  }
 }
 
 @media screen and (max-width: 968px) {
   .feature_section-cards {
-    top: 25% !important;
-    padding: 32px
+    top: 20% !important;
+    padding: 32px;
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
 
@@ -1027,7 +1070,7 @@ header .btn {
   align-self: stretch;
   flex-grow: 0;
   z-index: 2;
-   
+
 }
 
 .reviewer_details_student-name {
