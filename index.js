@@ -155,23 +155,3 @@ testimonialsCard.addEventListener("mousemove", function (e) {
   var walk = (x - startX) * 3;
   testimonialsCard.scrollLeft = scrollLeft - walk;
 });
-
-testimonialsCard.addEventListener("wheel", function (e) {
-  e.preventDefault();
-  var delta = e.wheelDelta;
-  testimonialsCard.scrollLeft += (delta > 0 ? -1 : 1) * 30;
-});
-
-testimonialsCard.addEventListener("scroll", function () {
-  var scrollRight =
-    testimonialsCard.scrollWidth -
-    testimonialsCard.clientWidth -
-    testimonialsCard.scrollLeft;
-  if (scrollRight <= 0) {
-    document.body.style.overflowX = "auto";
-    console.log("1nhale");
-  } else {
-    document.body.style.overflowX = "hidden";
-    console.log("case");
-  }
-});

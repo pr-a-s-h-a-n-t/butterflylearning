@@ -508,7 +508,7 @@ header .btn {
 
 
 .rectangle-container {
-  background-image: url(./assets/Rectangle\ 33.png);
+  background-image: url(./assets/bg.svg);
   width: 12.4375rem;
   height: 4rem;
   background-size: cover;
@@ -522,12 +522,14 @@ header .btn {
   padding: 0.5rem 1.25rem 0.5rem 3.75rem;
   margin-top: clamp(35px, 1vh, 3.125rem);
   /* position: relative !important; */
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08) !important;
+  
   right: -1%;
 }
 
+
+
 .accreditation-container {
-  background-image: url(./assets/accreditation.png);
+  background-image: url(./assets/accreditation.svg);
   width: 132px;
   height: 48px;
   background-size: cover;
@@ -536,6 +538,7 @@ header .btn {
   background-size: cover;
   display: flex;
   margin-right: 6px;
+  margin-top: 2px;
   justify-content: end;
 }
 
@@ -548,7 +551,7 @@ header .btn {
 
   .rectangle-container {
     /* position: absolute !important; */
-    right: -1.23%;
+    right: -1.9%;
     /* left: 80%; */
   }
 
@@ -1658,7 +1661,7 @@ header .btn {
 .this_is_how {
   position: sticky;
   top: 10rem;
-  max-width: 845px;
+  /* max-width: 845px; */
   height: 600px;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
@@ -1669,7 +1672,7 @@ header .btn {
   /* margin: auto; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
 }
 
