@@ -1002,7 +1002,7 @@ header .btn {
   padding: 56px 32px;
   isolation: isolate;
   margin: auto;
-  min-width: 411px;
+  min-width: fit-content;
   height: 655px;
   background: #f7f7f7;
   border-radius: 40px;
@@ -1221,6 +1221,7 @@ header .btn {
     max-width: 411px !important;
     overflow: hidden;
     margin: auto auto 24px;
+    min-width: auto;
 
   }
 
