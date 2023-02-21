@@ -1144,7 +1144,7 @@ header .btn {
   .testimonials_title-card {
     padding: 32px;
     gap: 8px;
-    width: 100% !important;
+    max-width: 343px !important;
     height: 457.3296px;
     background-size: cover;
     background-position: cover right;
@@ -1163,7 +1163,7 @@ header .btn {
   .testimonials_cards {
 
     margin: auto;
-    width: 100% !important;
+    max-width: 343px !important;
     height: 655px;
     background: #f7f7f7;
     border-radius: 40px;
@@ -1218,7 +1218,7 @@ header .btn {
   }
 
   .testimonials_cards {
-    max-width: 411px !important;
+    /* max-width: 411px !important; */
     overflow: hidden;
     /* margin: auto auto 24px; */
     min-width: auto;
@@ -2221,7 +2221,8 @@ form_ input {
 @media screen and (max-width: 768px) {
   .footer {
     padding: 40px 24px 24px !important;
-    height: fit-content;
+    /* height: fit-content; */
+    height: 80vh;
 
   }
 
