@@ -1220,7 +1220,7 @@ header .btn {
   .testimonials_cards {
     max-width: 411px !important;
     overflow: hidden;
-    margin: auto auto 24px;
+    /* margin: auto auto 24px; */
     min-width: auto;
 
   }
