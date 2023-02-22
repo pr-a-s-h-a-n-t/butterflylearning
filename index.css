@@ -1465,17 +1465,17 @@ header .btn {
     line-height: 20px;
     margin-top: -16px !important;
   }
+
   .services_cards-wrapper {
-     
     width: 343px !important;
-  
   }
+
   .services_title {
     padding: 0px 16px;
     gap: 8px;
     width: 343px;
     height: 108px;
-    top: 0rem;
+    top: 0.2rem !important;
   }
 
   .services_title-professionals h2 {
