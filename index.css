@@ -1346,6 +1346,7 @@ header .btn {
   line-height: 56px;
   /* identical to box height, or 117% */
   color: #d48971;
+
 }
 
 .services_cards1,
@@ -1459,32 +1460,82 @@ header .btn {
 }
 
 @media (max-width: 768px) {
+  .services_title-ourService p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -16px !important;
+  }
+  .services_cards-wrapper {
+     
+    width: 343px !important;
+  
+  }
+  .services_title {
+    padding: 0px 16px;
+    gap: 8px;
+    width: 343px;
+    height: 108px;
+    top: 0rem;
+  }
+
+  .services_title-professionals h2 {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 40px;
+
+    max-width: 311px;
+  }
 
   .services_cards1-content>p {
     font-size: 14px;
     line-height: 20px;
     margin-top: -1rem;
+    margin-bottom: 0;
   }
 
   .services_cards1-content>h2 {
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 0;
+  }
+
+  /* .services_cards1{
+    top: 9rem !important;
+  }
+  .services_cards2{
+    top: 14rem !important;
+
+  } */
+  .services_cards3 {
+    /* top: 12rem !important; */
+    /* position: relative; */
+
   }
 
   .services_cards1,
   .services_cards2,
   .services_cards3 {
-    top: 28%;
-    height: 343px;
-    padding: 40px 24px 24px 32px;
-    gap: 24px;
+    top: 8rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), ;
     border-radius: 40px;
     align-items: baseline;
+    padding: 40px 24px 24px 32px;
+    gap: 24px;
+    width: 343px;
+    height: 343px;
+    border-radius: 40px;
+    margin: 0 auto;
   }
 
   .services_card_navigation-arrow {
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
+    right: 24px;
+    bottom: 24px;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    background: rgba(247, 247, 247, 0.5);
+    border-radius: 40px;
   }
 
   .services {
@@ -1654,7 +1705,7 @@ header .btn {
 .hiw_title-wrapper {
   display: flex;
   flex-direction: column;
-  width: 678px;
+  /* width: 678px; */
   height: 88px;
   gap: 8px;
   margin: auto;
@@ -1708,22 +1759,23 @@ header .btn {
   border-radius: 40px;
   position: sticky;
   top: 10rem;
+  margin: auto;
 }
 
 #hiw_card1 {
-  width: 411px;
+  width: 343px;
   height: 384px;
 
 }
 
 #hiw_card2 {
-  width: 411px;
+  width: 343px;
   height: 464px;
 
 }
 
 #hiw_card3 {
-  width: 411px;
+  width: 343px;
   height: 404px;
 
 }
@@ -1847,20 +1899,17 @@ header .btn {
     line-height: 32px;
   }
 
-  .this_is_how_sm {
-    display: block !important;
-    width: 343px;
-    height: 228.67px;
-    border-radius: 40px;
-    background-image: url(./assets/thisIsHow.png);
-    margin: auto;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+  .hiw_title-wrapper {
+    margin: 0;
   }
 
-
+  .how_it_works {
+    gap: 40px !important;
+    display: flex;
+    flex-direction: column;
+  }
 
 
 }
@@ -1879,24 +1928,45 @@ header .btn {
     background-size: cover;
   } */
 
-  .this_is_how {
+  /* .this_is_how {
     display: none !important;
-  }
+  } */
 }
 
-@media screen and (max-width: 1122px) {
+@media screen and (max-width: 1268px) {
 
   .how_it_works {
     margin: 0 16px !important;
   }
 
+  .hiw_title-wrapper {
+    margin-bottom: 40px;
+  }
+
 
   .this_is_how {
-    display: none;
+    display: none !important;
   }
 
   .hiw_cards-wrapper {
     margin: auto;
+    gap: 24px;
+  }
+
+  .this_is_how_sm {
+    display: block !important;
+    width: 343px;
+    height: 228.67px;
+    border-radius: 40px;
+    background-image: url(./assets/thisIsHow.png);
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+    position: sticky !important;
+    top: 10rem;
   }
 }
 
@@ -2096,6 +2166,7 @@ form_ input {
   font-size: 48px;
   line-height: 56px;
   color: #0094b6;
+  margin-bottom: 0;
 }
 
 .faq_title h6 {
@@ -2177,6 +2248,11 @@ form_ input {
   gap: 48px;
 }
 
+#aa {
+  transition: all linear 1s !important;
+
+}
+
 @media (max-width: 768px) {
   .faq {
     margin: 0 32px;
@@ -2206,15 +2282,7 @@ form_ input {
     margin-top: 40px;
   }
 }
-/* @media (prefers-reduced-motion: reduce) { */
-  #demo p {
-   /* transition: all linear 2s !important; */
 
-  }
-  .in {
-    max-height: 48em; 
-    transition: all linear 2s !important;
-  }
 /* } */
 /* -----footer-------- */
 
