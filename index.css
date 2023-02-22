@@ -522,7 +522,7 @@ header .btn {
   padding: 0.5rem 1.25rem 0.5rem 3.75rem;
   margin-top: clamp(35px, 1vh, 3.125rem);
   /* position: relative !important; */
-  
+
   right: -1%;
 }
 
@@ -1091,7 +1091,7 @@ header .btn {
   color: #757575;
 }
 
- /* .reviewer_details_student-name:first-child {
+/* .reviewer_details_student-name:first-child {
  
 
   font-family: "Inter";
@@ -1114,7 +1114,7 @@ header .btn {
 
 .reviewer_details_student-name,
 .reviewer_details-age,
-.reviewer_details-time_period  h6{
+.reviewer_details-time_period h6 {
   margin-top: 2px;
 
 }
@@ -1493,7 +1493,7 @@ header .btn {
 
   .services_cards1-content {
     gap: 16px;
-    
+
     width: 287px;
     height: 207px;
   }
@@ -1637,6 +1637,7 @@ header .btn {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #afafaf;
+  margin-bottom: 0;
 }
 
 .hiw_title-wrapper h2 {
@@ -1647,22 +1648,27 @@ header .btn {
   line-height: 56px;
   text-align: center;
   color: #3b9579;
+  margin-bottom: 0;
 }
 
 .hiw_title-wrapper {
   display: flex;
   flex-direction: column;
+  width: 678px;
+  height: 88px;
+  gap: 8px;
+  margin: auto;
   align-items: center;
   text-align: center;
   position: sticky;
   top: 2rem;
-  margin-bottom: 24px;
+  margin: 0px auto 56px;
 }
 
 .this_is_how {
   position: sticky;
   top: 10rem;
-  /* max-width: 845px; */
+  max-width: 845px;
   height: 600px;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
@@ -1696,12 +1702,30 @@ header .btn {
   gap: 24px;
   /* position: sticky;
   top: 2rem; */
-  width: 100%;
-  height: 384px;
+  /* width: 100%;
+  height: 384px; */
   background: #F7F7F7;
   border-radius: 40px;
   position: sticky;
   top: 10rem;
+}
+
+#hiw_card1 {
+  width: 411px;
+  height: 384px;
+
+}
+
+#hiw_card2 {
+  width: 411px;
+  height: 464px;
+
+}
+
+#hiw_card3 {
+  width: 411px;
+  height: 404px;
+
 }
 
 .hiw_cards h3 {
@@ -1711,6 +1735,7 @@ header .btn {
   font-size: 32px;
   line-height: 40px;
   color: #121212;
+  margin-bottom: 0;
 }
 
 .hiw_cards p {
@@ -1720,6 +1745,8 @@ header .btn {
   font-size: 14px;
   line-height: 20px;
   width: 100%;
+  color: #545454;
+  margin-bottom: 0;
 
 }
 
@@ -1740,6 +1767,16 @@ header .btn {
 
 }
 
+.hiw_book_Consultation_card h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 0 !important;
+}
+
 .hiw_book_Consultation_card button {
   justify-content: center;
   align-items: center;
@@ -1749,6 +1786,12 @@ header .btn {
   height: 56px;
   background: #f7f7f7;
   border-radius: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1762,6 +1805,14 @@ header .btn {
     font-size: 32px;
     line-height: 40px;
     color: #3b9579;
+  }
+
+  .hiw_cards-wrapper {
+    gap: 24px;
+
+    width: 343px;
+    height: 1400px;
+
   }
 
   .hiw_cards {
@@ -1782,15 +1833,24 @@ header .btn {
     top: 26%; */
   }
 
+  .hiw_book_Consultation_card {
+    padding: 32px;
+  }
 
+  .hiw_book_Consultation_card button {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
-}
+  .hiw_book_Consultation_card h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
 
-@media screen and (max-width: 994px) {
   .this_is_how_sm {
     display: block !important;
-    width: 90%;
-    height: 390px;
+    width: 343px;
+    height: 228.67px;
     border-radius: 40px;
     background-image: url(./assets/thisIsHow.png);
     margin: auto;
@@ -1799,6 +1859,25 @@ header .btn {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+
+
+}
+
+@media screen and (max-width: 994px) {
+  /* .this_is_how_sm {
+    display: block !important;
+    width: 343px;
+    height: 228.67px;
+    border-radius: 40px;
+    background-image: url(./assets/thisIsHow.png);
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
 
   .this_is_how {
     display: none !important;
@@ -1991,6 +2070,14 @@ form_ input {
   border-radius: 12px;
   border: #00b9e3;
   color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'cv05' on;
+  color: #FFFFFF;
 }
 
 /* ------faq--------- */
@@ -2042,14 +2129,15 @@ form_ input {
   right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
-  transition: all linear 1s !important;
+  transition: all linear 0.5s !important;
 }
 
 #cllp>h3[aria-expanded="true"]:after {
-  content: "\f068";
+  /* content: "\f068"; */
+  transform: rotate(46deg);
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  transition: all linear 1s !important;
+  transition: all linear 0.5s !important;
 }
 
 #cllp>h3 {
@@ -2101,9 +2189,11 @@ form_ input {
     display: flex;
     display: contents;
   }
-.faq_title{
-  width: 311px;
-}
+
+  .faq_title {
+    width: 311px;
+  }
+
   .faq_title h2 {
     font-size: 32px;
     line-height: 40px;
