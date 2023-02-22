@@ -1668,7 +1668,7 @@ header .btn {
 .this_is_how {
   position: sticky;
   top: 10rem;
-  max-width: 845px;
+  /* max-width: 845px; */
   height: 600px;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
@@ -2129,7 +2129,7 @@ form_ input {
   right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
-  transition: all linear 0.5s !important;
+  /* transition: all linear 0.5s !important; */
 }
 
 #cllp>h3[aria-expanded="true"]:after {
@@ -2137,7 +2137,7 @@ form_ input {
   transform: rotate(46deg);
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  transition: all linear 0.5s !important;
+  /* transition: all linear 0.5s !important; */
 }
 
 #cllp>h3 {
@@ -2206,7 +2206,16 @@ form_ input {
     margin-top: 40px;
   }
 }
+/* @media (prefers-reduced-motion: reduce) { */
+  #demo p {
+   /* transition: all linear 2s !important; */
 
+  }
+  .in {
+    max-height: 48em; 
+    transition: all linear 2s !important;
+  }
+/* } */
 /* -----footer-------- */
 
 .footer {
