@@ -665,11 +665,13 @@ header .btn {
   /* margin-top: 1rem; */
 }
 
+
+
 /* feature section */
 .feature {
   justify-content: space-between;
   max-width: 90%;
-  margin: 80px;
+  margin: 80px 80px 0;
 }
 
 .feature_section-title {
@@ -763,6 +765,7 @@ header .btn {
 .feature_section-cards-img img {
   width: 10rem;
   height: 8.125rem;
+  margin-bottom: 24px;
 }
 
 .feature_section-cards-heading h4 {
@@ -782,7 +785,7 @@ header .btn {
 .feature_section-cards-text p {
   max-width: 532px;
   min-height: 40px;
-
+  margin-bottom: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -815,7 +818,9 @@ header .btn {
 
 @media screen and (max-width: 768px) {
   .sections_wrapper {
-    gap: 64px;
+    /* gap: 64px; */
+    display: flex;
+    flex-direction: column;
   }
 
   .sticky_section {
@@ -845,6 +850,7 @@ header .btn {
   .feature_section-cards-img img {
     width: 6.25rem;
     height: 5rem;
+    margin-bottom: 0;
   }
 
   .feature_section-cards_freeConsultation-btn button {
@@ -877,6 +883,7 @@ header .btn {
   .feature_section-cards-heading h4 {
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 16px;
   }
 
   .feature_section-cards-text p {
@@ -887,6 +894,9 @@ header .btn {
 }
 
 @media screen and (max-width: 968px) {
+  .sections_wrapper {
+    gap: 64px;
+  }
   .feature_section-cards {
     top: 20% !important;
     padding: 32px;
@@ -905,6 +915,7 @@ header .btn {
   max-width: 100%;
   min-height: 655px;
   margin: 0 0 0 80px !important;
+  gap: 24px;
 }
 
 .testimonials_title-card {
@@ -944,6 +955,7 @@ header .btn {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #545454;
+  margin-bottom: 0;
 }
 
 .testimonials_title-card-text h2 {
@@ -957,6 +969,7 @@ header .btn {
   font-size: 48px;
   line-height: 56px;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .testimonials_card-scroll-wrapper {
@@ -1014,9 +1027,9 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 29px;
-
-  width: 347px;
-  height: 233.98px;
+  width: fit-content;
+  /* width: 347px; */
+  /* height: 233.98px; */
   flex: none;
   align-self: stretch;
   flex-grow: 0;
@@ -1038,7 +1051,7 @@ header .btn {
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
 }
 
 .floating_bee {
@@ -1089,6 +1102,8 @@ header .btn {
   line-height: 24px;
   font-feature-settings: 'cv05' on;
   color: #757575;
+  align-items: end;
+  margin-top: 0;
 }
 
 /* .reviewer_details_student-name:first-child {
@@ -1102,7 +1117,7 @@ header .btn {
   /* margin-top: 2px; 
   color: #757575;
 }
-
+ 
 .reviewer_details_student-name:nth-child(2) {
   font-family: "Inter";
   font-style: normal;
@@ -1111,11 +1126,24 @@ header .btn {
   line-height: 24px;
   color: #757575;
 }  */
+.reviewer_details_student-name h6,
+.reviewer_details-age h6,
+.reviewer_details-time_period h6 {
+  margin-bottom: 0 !important;
+}
+
+.reviewer_details_student-name span p,
+.reviewer_details-age span p,
+.reviewer_details-time_period span p {
+  margin-bottom: -1.5px !important;
+
+}
 
 .reviewer_details_student-name,
 .reviewer_details-age,
 .reviewer_details-time_period h6 {
-  margin-top: 2px;
+  /* margin-top: 2px; */
+
 
 }
 
@@ -1135,7 +1163,8 @@ header .btn {
     height: fit-content;
     display: flex;
     flex-direction: column;
-    /* gap: 24px; */
+    gap: 24px !important;
+
     margin-top: 24px;
     padding: 0 !important;
     width: fit-content !important;
@@ -1158,12 +1187,13 @@ header .btn {
 
   .testimonials_cards-review-text {
     /* width: 278px !important; */
+    padding: 0;
   }
 
   .testimonials_cards {
 
     margin: auto;
-    max-width: 343px !important;
+    /* max-width: 343px !important; */
     height: 655px;
     background: #f7f7f7;
     border-radius: 40px;
@@ -1179,7 +1209,9 @@ header .btn {
 
 @media screen and (max-width: 988px) {
   .testimonials {
-    margin: 16px !important;
+    margin: 0 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
 
   }
 
@@ -1187,10 +1219,10 @@ header .btn {
 
     /* display: block; */
     height: fit-content;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
-    gap: 24px;
-    margin-top: 24px;
+    gap: 24px !important;
+    /* margin-top: 24px; */
     padding: 0;
     margin: auto;
     width: 343px;
@@ -1221,7 +1253,7 @@ header .btn {
     /* max-width: 411px !important; */
     overflow: hidden;
     /* margin: auto auto 24px; */
-    min-width: auto;
+    /* min-width: auto; */
 
   }
 
@@ -1241,11 +1273,15 @@ header .btn {
   .reviewer_details_student-name {
     font-size: 14px;
     line-height: 24px;
+    /* align-items: end;
+    margin-top: 0; */
+
   }
 
   .reviewer_details_student-name:first-child {
     font-size: 14px;
     line-height: 24px;
+    /* align-items: end; */
 
   }
 
@@ -1264,7 +1300,7 @@ header .btn {
 @media screen and (max-width: 1324px) {
   .testimonials_card-scroll-wrapper {
     width: 100%;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
   }
 
   .testimonials_title-card {
@@ -1862,9 +1898,8 @@ header .btn {
 
   .hiw_cards-wrapper {
     gap: 24px;
-
     width: 343px;
-    height: 1400px;
+    /* height: 1400px; */
 
   }
 
@@ -1907,7 +1942,7 @@ header .btn {
   }
 
   .how_it_works {
-    gap: 40px !important;
+    gap: 0 !important;
     display: flex;
     flex-direction: column;
   }
@@ -1960,7 +1995,7 @@ header .btn {
     height: 228.67px;
     border-radius: 40px;
     background-image: url(./assets/thisIsHow.png);
-    margin: auto;
+    margin: 0 auto 24px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
