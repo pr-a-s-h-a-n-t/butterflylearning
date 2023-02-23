@@ -2383,14 +2383,16 @@ form_ input {
 .footer {
   display: block;
   max-width: 100%;
-  height: 413px;
-  padding: 39px 80px 32px;
+  /* height: 413px; */
+  height: auto;
+
+  padding: 56px 80px 32px;
   justify-content: flex-start;
   color: #000000 !important;
   position: sticky !important;
   bottom: 0;
   left: 0;
-  z-index: -1 !important;
+  /* z-index: -1 !important; */
   opacity: 0;
   box-sizing: border-box;
 }
@@ -2458,6 +2460,7 @@ form_ input {
   font-feature-settings: 'cv05' on;
   width: fit-content !important;
   color: #121212;
+  margin-bottom: 1.5rem !important;
 }
 
 
@@ -2467,9 +2470,13 @@ form_ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 1rem;
   font-feature-settings: 'cv05' on;
   color: #545454;
+}
+
+.list-unstyled li {
+  margin-bottom: 1rem;
+
 }
 
 #contact_us_list {
@@ -2479,12 +2486,79 @@ form_ input {
   justify-content: flex-start !important;
 }
 
+.copywrite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copywrite h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.copywrite span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  color: #333333;
+}
+
+.email{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+font-feature-settings: 'cv05' on;
+color: #545454;
+
+}
+
+.address_phone h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'cv05' on;
+  color: #121212;
+
+}
+
+.address_phone p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #545454;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 40px 24px 24px !important;
     /* height: fit-content; */
-    height: 80vh;
+    /* height: 80vh; */
+    max-height: 845px;
 
+
+  }
+
+  .footer_list-wrapper {
+    margin-top: 24px !important;
+    /* margin: 24px auto !important; */
+  }
+
+  .footer-logo-wrapper {
+    margin-top: 51px;
   }
 
   #community {
@@ -2494,5 +2568,69 @@ form_ input {
 
   .mb-4 {
     text-align: initial;
+  }
+
+  .copywrite {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list_heading {
+    margin-bottom: 16px !important;
+  }
+
+  .copywrite span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 24px !important;
+  }
+
+  .copywrite h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #333333;
+    max-width: 90%;
+
+  }
+
+  .email,
+  .address_phone h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #121212;
+  }
+
+  .address_phone p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #121212;
+  }
+
+  .abc_logo img {
+    width: 74.24px !important;
+    height: 73px !important;
+    margin-bottom: -8.4rem;
+    margin-left: -2rem;
+
+  }
+
+  .train_logo img {
+    width: 66.81px !important;
+    height: 27.22px !important;
+    margin-left: -7rem;
+    margin-bottom: -2.3rem;
+
   }
 }
