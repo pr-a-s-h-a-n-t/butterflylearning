@@ -342,6 +342,57 @@ header .btn {
 
 }
 
+.bhcoe_dropdown {
+  padding: 8px 8px 24px 24px;
+  gap: 8px;
+  position: absolute;
+  width: 332px;
+  height: 172px;
+  right: -7px;
+  top: 116px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bhcoe_dropdown span img {
+  float: right;
+  /* display: block; */
+}
+
+.bhcoe_dropdown p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  font-feature-settings: 'cv05' on;
+
+  /* Grey/900 */
+
+  color: #121212;
+}
+
+.bhcoe_dropdown h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-decoration-line: underline;
+  font-feature-settings: 'cv05' on;
+
+  /* Blue 1 */
+
+  color: #2F80ED;
+}
+
 /* 
 .title-content-btn:hover {
   background-color: blue;
@@ -897,6 +948,7 @@ header .btn {
   .sections_wrapper {
     gap: 64px;
   }
+
   .feature_section-cards {
     top: 20% !important;
     padding: 32px;

@@ -9,7 +9,8 @@ let resnav = document.querySelector(".nav-item-wrapper");
 let header = document.querySelector("#header");
 let body = document.querySelector(".box");
 let nav = document.querySelector(".nav-bar");
-console.log(resnav, "-----");
+
+ 
 
 menus_btn.addEventListener("click", function () {
   console.log("menu opened");
