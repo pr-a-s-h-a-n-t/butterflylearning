@@ -343,18 +343,20 @@ header .btn {
 }
 
 .bhcoe_dropdown {
-  padding: 8px 8px 24px 24px;
-  gap: 8px;
-  position: absolute;
-  width: 332px;
-  height: 172px;
-  right: -7px;
-  top: 116px;
-  background: #FFFFFF;
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
+  padding: 8px 8px 24px 24px !important ;
+  gap: 8px !important;
+  position: absolute !important;
+  width: 332px !important;
+  height: 172px !important;
+  right: -7px !important;
+  /* margin-top: 116px !important; */
+  top: 116px !important;
+  background: #FFFFFF !important;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 16px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  cursor: pointer !important;
 }
 
 .bhcoe_dropdown span img {
@@ -794,7 +796,7 @@ header .btn {
   margin-bottom: 24px;
   position: sticky;
   top: 3%;
-  border: 24px solid #FFFFFF;
+  border: 12px solid #FFFFFF;
 }
 
 .car1 {
@@ -872,6 +874,7 @@ header .btn {
     /* gap: 64px; */
     display: flex;
     flex-direction: column;
+    border-radius: 0 0 56px 56px !important;
   }
 
   .sticky_section {
@@ -1450,6 +1453,7 @@ header .btn {
   /* height: 560px; */
   position: sticky;
   top: 22%;
+  cursor: pointer;
 }
 
 .services_cards1 {
@@ -1861,20 +1865,20 @@ header .btn {
 
 #hiw_card1 {
   /* width: 411px; */
-  height: 384px;
+  /* height: 384px; */
 
 }
 
 #hiw_card2 {
   /* width: 411px; */
-  height: 464px;
+  /* height: 464px; */
 
 }
 
 #hiw_card3 {
 
   /* width: 411px; */
-  height: 404px;
+  /* height: 404px; */
 
 }
 
@@ -2148,7 +2152,7 @@ form label {
   .contact-layout-wrapper {
     margin: 0 16px;
     padding: 32px 32px 120px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     border-radius: 40px;
   }
 
@@ -2177,7 +2181,7 @@ form label {
   .contact_logo img {
     position: absolute;
     width: 135px;
-    height: 115px;
+    height: 124px;
     right: 15%;
     display: block;
     margin-bottom: -35rem !important;
@@ -2234,7 +2238,7 @@ form label {
 .contact_title_logo img {
   width: 18.9375rem;
   height: 16.125rem;
-  margin-bottom: -21rem !important;
+  margin-bottom: -20.6rem !important;
 }
 
 form_ input {
@@ -2326,6 +2330,7 @@ form_ input {
 #cllp>h3[aria-expanded="true"]:after {
   /* content: "\f068"; */
   transform: rotate(46deg);
+  color: grey;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   /* transition: all linear 0.5s !important; */
