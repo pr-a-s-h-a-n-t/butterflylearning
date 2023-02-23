@@ -2548,7 +2548,7 @@ form_ input {
   .footer {
     padding: 2.5rem 1.5rem 24px !important;
     /* height: fit-content; */
-    height: 80vh;
+    max-height: 80vh;
     /* max-height: 845px; */
     /* max-height: 100vh !important; */
 
