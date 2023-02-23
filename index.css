@@ -1806,9 +1806,9 @@ header .btn {
 
 .this_is_how {
   position: sticky;
-  top: 10rem;
+  top: 11rem;
   /* max-width: 845px; */
-  height: 600px;
+  height: 35rem;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
   background-size: cover;
@@ -1819,6 +1819,10 @@ header .btn {
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
+  border-style: solid;
+  border-width: 12px;
+  border-color: white;
+
 
 }
 
@@ -1828,9 +1832,14 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 44px;
-  width: 25.6875rem;
+  /* width: 25.6875rem; */
+  /* width: 100%; */
   /* margin: auto; */
   height: fit-content;
+
+  border-color: white;
+  border-style: solid;
+  border-width: 12px;
 }
 
 .hiw_cards {
@@ -1847,24 +1856,24 @@ header .btn {
   border-radius: 40px;
   position: sticky;
   top: 10rem;
-  margin: auto;
+  /* margin: auto; */
 }
 
 #hiw_card1 {
-  width: 411px;
+  /* width: 411px; */
   height: 384px;
 
 }
 
 #hiw_card2 {
-  width: 411px;
+  /* width: 411px; */
   height: 464px;
 
 }
 
 #hiw_card3 {
 
-  width: 411px;
+  /* width: 411px; */
   height: 404px;
 
 }
@@ -2033,10 +2042,10 @@ header .btn {
     margin-bottom: 40px;
   }
 
-
+/* 
   .this_is_how {
     display: none !important;
-  }
+  } */
 
   .hiw_cards-wrapper {
     margin: auto;
@@ -2044,7 +2053,7 @@ header .btn {
   }
 
   .this_is_how_sm {
-    display: block !important;
+    /* display: block !important; */
     width: 343px;
     height: 228.67px;
     border-radius: 40px;
@@ -2058,6 +2067,13 @@ header .btn {
     position: sticky !important;
     top: 10rem;
   }
+}
+
+/* reference code */
+@media screen and (max-width: 991px){
+.block__temp {
+    height: 32rem;
+}
 }
 
 /* form */
@@ -2085,6 +2101,16 @@ form {
 
 .form-control {
   border-radius: 12px;
+}
+
+label>span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'cv05' on;
+  color: #EB5757;
 }
 
 .form_wrapper {
