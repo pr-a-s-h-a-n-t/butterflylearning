@@ -2392,7 +2392,7 @@ form_ input {
   position: sticky !important;
   bottom: 0;
   left: 0;
-  /* z-index: -1 !important; */
+  z-index: -1 !important;
   opacity: 0;
   box-sizing: border-box;
 }
