@@ -2407,7 +2407,7 @@ form_ input {
 }
 
 .footer_list-wrapper ul li a {
-  color: #000000 !important;
+  /* color: #000000 !important; */
 }
 
 .footer-logo-wrapper {
@@ -2496,8 +2496,8 @@ form_ input {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   color: #333333;
 }
 
@@ -2505,20 +2505,20 @@ form_ input {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   text-align: right;
   color: #333333;
 }
 
-.email{
+.email {
   font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-font-feature-settings: 'cv05' on;
-color: #545454;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-feature-settings: 'cv05' on;
+  color: #545454;
 
 }
 
@@ -2526,8 +2526,8 @@ color: #545454;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-feature-settings: 'cv05' on;
   color: #121212;
 
@@ -2537,28 +2537,36 @@ color: #545454;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   color: #545454;
+  max-width: 10rem;
+  margin-bottom: 8px !important;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 40px 24px 24px !important;
+    padding: 2.5rem 1.5rem 24px !important;
     /* height: fit-content; */
     /* height: 80vh; */
-    max-height: 845px;
+    /* max-height: 845px; */
+    max-height: 100vh !important;
+
 
 
   }
 
   .footer_list-wrapper {
-    margin-top: 24px !important;
+    margin-top: 1.5rem !important;
     /* margin: 24px auto !important; */
   }
 
   .footer-logo-wrapper {
-    margin-top: 51px;
+    margin-top: 3.1875rem;
+  }
+
+  .list-unstyled li {
+    color: #121212;
   }
 
   #community {
@@ -2576,24 +2584,24 @@ color: #545454;
   }
 
   .list_heading {
-    margin-bottom: 16px !important;
+    margin-bottom: 1rem !important;
   }
 
   .copywrite span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    margin-bottom: 24px !important;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    margin-bottom: 1.5rem !important;
   }
 
   .copywrite h6 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
     color: #333333;
     max-width: 90%;
 
@@ -2603,19 +2611,30 @@ color: #545454;
   .address_phone h6 {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     color: #121212;
   }
 
-  .address_phone p {
+  .address_phone p,
+  #phone_number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    /* color: #121212; */
+    color: #333333;
+    margin-bottom: 8px !important;
+    max-width: 10rem;
+  }
+
+  #phone_number {
     color: #121212;
+    margin-bottom: 0px !important;
+
+
   }
 
   .abc_logo img {
