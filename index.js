@@ -153,6 +153,6 @@ testimonialsCard.addEventListener("mousemove", function (e) {
   if (!isDragging) return;
   e.preventDefault();
   var x = e.pageX - testimonialsCard.offsetLeft;
-  var walk = (x - startX) * 3;
+  var walk = (x - startX) * 1;
   testimonialsCard.scrollLeft = scrollLeft - walk;
 });
