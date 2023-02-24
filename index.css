@@ -597,7 +597,7 @@ header .btn {
 
 
 @media screen and (max-width: 768px) {
-  
+
   .hero_stats-wrapper {
     padding: 0 9px;
   }
@@ -1846,7 +1846,7 @@ header .btn {
   /* width: 100%; */
   /* margin: auto; */
   height: fit-content;
- 
+
 }
 
 .hiw_cards {
@@ -1855,6 +1855,7 @@ header .btn {
   align-items: flex-start;
   padding: 48px;
   gap: 24px;
+  width: 100%;
   /* position: sticky;
   top: 2rem; */
   /* width: 100%;
@@ -1874,14 +1875,16 @@ header .btn {
 }
 
 #hiw_card2 {
-  /* width: 411px; */
+  width: 100%;
+
   /* height: 464px; */
 
 }
 
 #hiw_card3 {
 
-  /* width: 411px; */
+  width: 100%;
+
   /* height: 404px; */
 
 }
@@ -1890,8 +1893,8 @@ header .btn {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: #121212;
   margin-bottom: 0;
 }
@@ -1900,8 +1903,8 @@ header .btn {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   width: 100%;
   color: #545454;
   margin-bottom: 0;
@@ -1911,8 +1914,8 @@ header .btn {
 .hiw_book_Consultation_card {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  gap: 40px;
+  padding: 16px 24px;
+  gap: 2.5rem;
   width: 100%;
   /* height: 312px; */
   height: auto;
@@ -1944,7 +1947,7 @@ header .btn {
   gap: 8px;
   /* width: 234px; */
   width: auto;
-  height: 56px;
+  min-height: 56px;
   background: #f7f7f7;
   border-radius: 40px;
   font-family: 'Inter';
@@ -1956,39 +1959,68 @@ header .btn {
 }
 
 @media screen and (max-width: 768px) {
+  .how_it_works {
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    max-width: 100%;
+    margin: 0 16px !important ;
+  }
+
   .hiw_title-wrapper h6 {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2em;
+    font-size: 14px  !important;
+    line-height: 20px  !important;
+    letter-spacing: 0.2em  !important;
   }
 
   .hiw_title-wrapper h2 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 32px  !important;
+    line-height: 40px  !important;
     color: #3b9579;
   }
 
+  .hiw_cards h3 {
+
+    font-size: 24px  !important;
+    line-height: 32px  !important;
+    margin-bottom: 0;
+  }
+
+  .hiw_cards p {
+    color: #545454;
+    font-size: 14px  !important;
+    line-height: 20px  !important;
+    margin-bottom: 0;
+  }
+
+  .hiw_book_Consultation_card h3 {
+    color: #fff;
+    font-size: 2rem  !important;
+    line-height: 40px  !important;
+    font-weight: 700;
+  }
+
   .hiw_cards-wrapper {
-    /* gap: 24px;
-    width: 343px; */
+    gap: 24px;
+    /* width: 343px; */
     /* height: 1400px; */
 
   }
 
   .hiw_cards {
-    /* padding: 32px;
-    gap: 24px;
+     padding: 32px;
+    /* gap: 24px;
     max-width: 100%;
-    height: 328px; */
+    height: 328px;  */
     /* position: sticky;
     top: 26%; */
     /* margin: auto; */
   }
 
   .this_is_how {
-    max-width: 100%;
+    /* max-width: 100%;
     height: 228.67px;
-    border-radius: 40px;
+    border-radius: 40px; */
     /* position: sticky;
     top: 26%; */
   }
@@ -2014,23 +2046,93 @@ header .btn {
   }
 
   .how_it_works {
-    gap: 0 !important;
+    /* gap: 0 !important;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
   }
 
+  .this_is_how {
+    display: none;
+  }
+
+  .this_is_how_sm {
+    display: block !important;
+    position: sticky !important;
+    top: 10rem;
+    height: 20rem;
+    background-image: url(./assets/thisIsHow.png);
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 12px;
+    border-color: white;
+
+
+  }
+
+  
+#hiw_card1 img {
+   
+  width: 109.56px;
+  height: 100px;
+  
+}
+
+#hiw_card2 img {
+ 
+  width: 135.28px;
+  height: 100px;
+}
+
+#hiw_card3 img {
+
+  width: 98.85px;
+  height: 100px;
+  
+
+}
 
 }
 
 @media screen and (max-width: 991px) {
-  .this_is_how{
+
+  .hiw_cards h3 {
+
+    font-size: 28px;
+    line-height: 40px;
+
+    margin-bottom: 0;
+  }
+
+  .hiw_cards p {
+    color: #545454;
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .hiw_book_Consultation_card h3 {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+
+  /* .this_is_how{
     display: none;
   }
    .this_is_how_sm {
     display: block !important;
     position: sticky !important;
     top: 10rem;
-    height: 35rem;
+    height: 20rem;
     background-image: url(./assets/thisIsHow.png);
     border-radius: 40px;
     background-size: cover;
@@ -2044,7 +2146,7 @@ header .btn {
     border-color: white;
   
     
-  } 
+  }  */
 
   /* .this_is_how {
     display: none !important;
@@ -2053,23 +2155,23 @@ header .btn {
 
 @media screen and (max-width: 1268px) {
 
-  .how_it_works {
+  /* .how_it_works {
     margin: 0 16px !important;
   }
 
   .hiw_title-wrapper {
     margin-bottom: 40px;
-  }
+  } */
 
   /* 
   .this_is_how {
     display: none !important;
   } */
 
-  .hiw_cards-wrapper {
+  /* .hiw_cards-wrapper {
     margin: auto;
     gap: 24px;
-  }
+  } */
 
   /* .this_is_how_sm {
      
@@ -2086,7 +2188,7 @@ header .btn {
     position: sticky !important;
     top: 10rem;
   }*/
-} 
+}
 
 /* reference code */
 /* @media screen and (max-width: 991px) {
