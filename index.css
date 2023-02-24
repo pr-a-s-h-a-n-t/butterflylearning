@@ -974,7 +974,7 @@ header .btn {
   max-width: 100%;
   min-height: 655px;
   margin: 0 0 0 80px !important;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .testimonials_title-card {
@@ -1031,8 +1031,8 @@ header .btn {
 }
 
 .testimonials_card-scroll-wrapper {
-  /* padding: 0px 0px 0px 24px; */
-  padding: 0;
+  padding: 0px 0px 0px 24px;
+  /* padding: 0; */
   gap: 24px;
   width: 60%;
   min-height: 655px;
