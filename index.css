@@ -2051,7 +2051,7 @@ header .btn {
     margin-bottom: 40px;
   }
 
-/* 
+  /* 
   .this_is_how {
     display: none !important;
   } */
@@ -2079,10 +2079,10 @@ header .btn {
 }
 
 /* reference code */
-@media screen and (max-width: 991px){
-.block__temp {
+@media screen and (max-width: 991px) {
+  .block__temp {
     height: 32rem;
-}
+  }
 }
 
 /* form */
