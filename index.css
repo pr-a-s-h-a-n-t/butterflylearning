@@ -475,7 +475,7 @@ header .btn {
    overflow: hidden;
      display: flex;
    flex-direction: row;
-   align-items: center;
+ 
    padding: 16px 24px;
    gap: 8px;
    width: 229px;
@@ -489,11 +489,12 @@ header .btn {
    line-height: 24px;
    text-align: center;
    color: #ffffff;
-   /* margin-top: clamp(16px, 32px, 32px); */
+   margin-top: clamp(16px, 32px, 32px);
    border: #00b9e3;
  }
  
- 
+
+  
  
  .title-content-btn_n:hover{cursor: pointer}
  
@@ -2560,7 +2561,7 @@ form_ input {
   position: sticky !important;
   bottom: 0;
   left: 0;
-  z-index: 0 !important;
+  z-index: -1 !important;
   opacity: 0;
   box-sizing: border-box;
 }
