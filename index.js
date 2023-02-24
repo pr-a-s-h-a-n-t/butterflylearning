@@ -25,6 +25,28 @@ menus_btn.addEventListener("click", function () {
   // translateHeroIcon.classList.add("translate");
 });
 
+// sticky navbar scroll
+// Add a scroll event listener to the window
+// window.addEventListener('scroll', () => {
+//   // If the user has scrolled 30% down the page
+//   if (window.scrollY > (window.innerHeight * 0.3)) {
+//     // Add the sticky-top class to the header element
+//     header.classList.add('sticky-top');
+//     header.classList.add('shadow');
+    
+//     // Show the book consultation button
+//     bookConsultationBtn.style.display = 'block';
+//   } else {
+//     // Remove the sticky-top class from the header element
+//     header.classList.remove('sticky-top');
+//     header.classList.remove('shadow');
+    
+//     // Hide the book consultation button
+//     bookConsultationBtn.style.display = 'none';
+//   }
+// });
+
+
 close_btn.addEventListener("click", function () {
   console.log("menu closed");
   menus.classList.remove("active2");
