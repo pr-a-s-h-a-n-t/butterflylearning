@@ -2080,8 +2080,8 @@ header .btn {
     border-color: white;
     margin-bottom: 24px;
     margin-top: 40px;
-}
-   
+  }
+
 
 
   #hiw_card1 img {
@@ -2133,12 +2133,12 @@ header .btn {
   }
 
 
- 
+
 }
 
- 
 
- 
+
+
 
 /* form */
 .contact-layout-wrapper {
@@ -2736,9 +2736,47 @@ form_ input {
     margin-bottom: -2.3rem;
 
   }
+  .footer_list_container{
+    margin-left: 0 !important; 
+    /* width: 50%;  */
+  }
+
+  .footer_list-wrapper{
+    justify-content: flex-start;
+    width: 100% ;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  #sm_full_width_list_container{
+    width: 100% !important;
+  }
 }
 
+@media screen and (max-width: 991px) {
+.footer_list_container{
+  /* width: auto; */
+  width: 37% !important;margin-left: 0 !important;  
+}
+.footer_list-wrapper{
+  /* justify-content: flex-start !important; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  /* flex-direction: column; */
+  margin: 0;
+}
+}
+/* inline css to external css start */
+.footer_Butterfly_Logo img {
+  width: 88px;
+  height: 32px;
+}
+.footer_list_container{
+  width: auto; margin-left: 72px;
+}
 
+ 
+/* inline css to external css end */
 
 
 
