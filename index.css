@@ -344,7 +344,7 @@ header .btn {
 
 .bhcoe_dropdown {
   padding: 8px 8px 24px 24px;
-  gap: 8px;
+  /* gap: 8px; */
   position: absolute;
   width: 332px;
   /* height: 172px; */
@@ -370,6 +370,7 @@ header .btn {
   font-size: 12px;
   line-height: 16px;
   margin-right: 16px;
+  margin-bottom: 8px;
   /* or 133% */
 
   font-feature-settings: 'cv05' on;
@@ -385,6 +386,7 @@ header .btn {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin-bottom: 0px;
   /* identical to box height, or 133% */
 
   text-decoration-line: underline;
