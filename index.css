@@ -1809,7 +1809,7 @@ header .btn {
 
 .this_is_how {
   position: sticky;
-  top: 11rem;
+  top: 10rem;
   /* max-width: 845px; */
   height: 35rem;
   background-image: url(./assets/thisIsHow.png);
@@ -1842,7 +1842,7 @@ header .btn {
 
   border-color: white;
   border-style: solid;
-  border-width: 12px;
+  /* border-width: 12px; */
 }
 
 .hiw_cards {
@@ -1859,6 +1859,7 @@ header .btn {
   border-radius: 40px;
   position: sticky;
   top: 10rem;
+  border: 16px solid white;
   /* margin: auto; */
 }
 
