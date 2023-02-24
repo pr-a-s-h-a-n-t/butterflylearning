@@ -489,10 +489,13 @@ header .btn {
    line-height: 24px;
    text-align: center;
    color: #ffffff;
-   margin-top: clamp(16px, 32px, 32px);
    border: #00b9e3;
- }
- 
+  }
+  
+  #hero_btn_position{
+
+    margin-top: clamp(16px, 32px, 32px);
+  }
 
   
  
@@ -2158,7 +2161,7 @@ header .btn {
     border-width: 12px;
     border-color: white;
     margin-bottom: 24px;
-    /* margin-top: 40px; */
+    margin-top: 40px;
   }
 
 
