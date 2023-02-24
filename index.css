@@ -313,7 +313,7 @@ header .btn {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 16px;
+  margin: 24px 16px 0;
   gap: 1rem;
   max-width: 27.6875rem;
   min-height: 12rem;
@@ -342,60 +342,7 @@ header .btn {
 
 }
 
-.bhcoe_dropdown {
-  padding: 8px 8px 24px 24px;
-  /* gap: 8px; */
-  position: absolute;
-  width: 332px;
-  /* height: 172px; */
-  right: -7px;
-  /* margin-top: 116px !important; */
-  top: 116px;
-  background: #FFFFFF;
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-}
-
-.bhcoe_dropdown span img {
-  float: right;
-  /* display: block; */
-}
-
-.bhcoe_dropdown p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  margin-right: 16px;
-  margin-bottom: 8px;
-  /* or 133% */
-
-  font-feature-settings: 'cv05' on;
-
-  /* Grey/900 */
-
-  color: #121212;
-}
-
-.bhcoe_dropdown h5 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  margin-bottom: 0px;
-  /* identical to box height, or 133% */
-
-  text-decoration-line: underline;
-  font-feature-settings: 'cv05' on;
-
-  /* Blue 1 */
-
-  color: #2F80ED;
-}
+ 
 
 /* 
 .title-content-btn:hover {
@@ -463,18 +410,143 @@ header .btn {
 
 /* hero btn animation end */
 
+/* ------><------------ */
+.bhcoe_dropdown {
+  padding: 8px 8px 24px 24px;
+  /* gap: 8px; */
+  position: absolute;
+  width: 332px;
+  /* height: 172px; */
+  right: -7px;
+  /* margin-top: 116px !important; */
+  top: 116px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
 
+.bhcoe_dropdown span img {
+  float: right;
+  /* display: block; */
+}
+
+.bhcoe_dropdown p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  /* or 133% */
+
+  font-feature-settings: 'cv05' on;
+
+  /* Grey/900 */
+
+  color: #121212;
+}
+
+.bhcoe_dropdown h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 0px;
+  /* identical to box height, or 133% */
+
+  text-decoration-line: underline;
+  font-feature-settings: 'cv05' on;
+
+  /* Blue 1 */
+
+  color: #2F80ED;
+}
+
+
+/* new code for button animation */
+ 
+
+.title-content-btn_n {
+  position: relative;
+   overflow: hidden;
+     display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 16px 24px;
+   gap: 8px;
+   width: 229px;
+   height: 56px;
+   background: #00b9e3;
+   border-radius: 40px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #ffffff;
+   /* margin-top: clamp(16px, 32px, 32px); */
+   border: #00b9e3;
+ }
+ 
+ 
+ 
+ .title-content-btn_n:hover{cursor: pointer}
+ 
+ .title-content-btn_n:hover:before{
+   opacity: 1; 
+   transform: translate(0,0);
+ }
+ 
+ .title-content-btn_n:before{
+   content: attr(data-hover);
+   position: absolute;
+   top: 1.1em; 
+   left: 0;
+   width: 100%;
+   opacity: 0;
+   transform: translate(0,100%);
+   transition: all .3s ease-in-out;
+ }
+ 
+ .title-content-btn_n  p{
+   font-family: "Inter";
+   
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+  
+   transition: all .3s ease-in-out;
+ }
+ 
+ .title-content-btn_n:hover p{
+   opacity: 0; 
+   transform: translate(0,-100%)
+ }
+/* -------><------------ */
+
+
+ 
 
 .hero-title-wrapper_sm h2 {
-  max-width: 19.4375rem;
-  min-height: 8.25rem;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: clamp(28px, 9.6vw, 2.75rem) !important;
-  line-height: clamp(38px, 10vw, 2.75rem) !important;
-  text-align: inherit;
-  color: #004a5b;
+     /* max-width: 19.4375rem; */
+     width: auto;
+     min-height: 8.25rem;
+     font-family: "Inter";
+     font-style: normal;
+     font-weight: 700;
+     font-size: clamp(28px, 9.6vw, 2.75rem) !important;
+     line-height: clamp(38px, 10vw, 2.75rem) !important;
+     text-align: inherit;
+     color: #004a5b;
+     padding-left: 16px;
+     margin-bottom: 1rem;
+ 
 }
 
 
@@ -536,7 +608,7 @@ header .btn {
   line-height: 24px;
   text-align: center;
   color: #ffffff;
-  margin-top: clamp(16px, 32px, 32px);
+  /* margin-top: clamp(16px, 32px, 32px); */
   border: #00b9e3;
 }
 
@@ -961,6 +1033,7 @@ header .btn {
     padding: 32px;
     margin: 0 auto;
     max-width: 100%;
+    height: fit-content;
   }
 }
 
@@ -1231,7 +1304,8 @@ header .btn {
   .testimonials_title-card {
     padding: 32px;
     gap: 8px;
-    max-width: 343px !important;
+    /* max-width: 343px !important; */
+    width: 100%;
     height: 457.3296px;
     background-size: cover;
     background-position: cover right;
@@ -1413,7 +1487,6 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-
   width: 100%;
   /* height: 1728px; */
 }
@@ -1563,7 +1636,7 @@ header .btn {
   }
 
   .services_cards-wrapper {
-    width: 343px !important;
+    width: 100% !important;
   }
 
   .services_title {
@@ -1617,7 +1690,7 @@ header .btn {
     align-items: baseline;
     padding: 40px 24px 24px 32px;
     gap: 24px;
-    width: 343px;
+    width: 100%;
     height: 343px;
     border-radius: 40px;
     margin: 0 auto;
@@ -1634,9 +1707,9 @@ header .btn {
     border-radius: 40px;
   }
 
-  .services {
+  /* .services {
     margin: 0 16px;
-  }
+  } */
 
   .services_cards1-content {
     gap: 16px;
@@ -1646,6 +1719,11 @@ header .btn {
   }
 }
 
+@media (max-width: 991px) {
+  .services {
+    margin: 0 16px !important;
+}
+}
 
 
 
@@ -1814,13 +1892,13 @@ header .btn {
   align-items: center;
   text-align: center;
   position: sticky;
-  top: 2rem;
+  top: 0.2rem !important;
   margin: 0px auto 56px;
 }
 
 .this_is_how {
   position: sticky;
-  top: 10rem;
+  top: 8rem;
   /* max-width: 845px; */
   height: 35rem;
   background-image: url(./assets/thisIsHow.png);
@@ -1867,7 +1945,7 @@ header .btn {
   background: #F7F7F7;
   border-radius: 40px;
   position: sticky;
-  top: 10rem;
+  top: 8rem;
   border: 16px solid white;
   /* margin: auto; */
 }
@@ -1928,7 +2006,7 @@ header .btn {
   border-radius: 40px;
   margin: auto;
   position: sticky;
-  top: 11rem;
+  top: 8rem;
   color: #FFFFFF;
   border: 16px solid white;
 
@@ -2065,7 +2143,7 @@ header .btn {
   .this_is_how_sm {
     display: block !important;
     position: sticky !important;
-    top: 10rem;
+    top: 8rem;
     height: 20rem;
     background-image: url(./assets/thisIsHow.png);
     border-radius: 40px;
@@ -2079,7 +2157,7 @@ header .btn {
     border-width: 12px;
     border-color: white;
     margin-bottom: 24px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 
 
