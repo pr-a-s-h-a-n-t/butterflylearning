@@ -2552,9 +2552,7 @@ form_ input {
 
 .footer_list-wrapper {
   color: #000000 !important;
-  width: 100% !important;
-  justify-content: flex-end;
-  /* justify-content: space-between; */
+  width: auto;
 }
 
 .footer_list-wrapper ul li a {
@@ -2565,9 +2563,6 @@ form_ input {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
-  /* vertical-align: bottom !important; */
-
-  /* gap: 40px; */
 }
 
 .abc_logo {
