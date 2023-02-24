@@ -343,19 +343,19 @@ header .btn {
 }
 
 .bhcoe_dropdown {
-  padding: 8px 8px 24px 24px ;
-  gap: 8px ;
-  position: absolute ;
-  width: 332px ;
-  height: 172px ;
-  right: -7px ;
+  padding: 8px 8px 24px 24px;
+  gap: 8px;
+  position: absolute;
+  width: 332px;
+  height: 172px;
+  right: -7px;
   /* margin-top: 116px !important; */
-  top: 116px ;
-  background: #FFFFFF ;
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08) ;
-  border-radius: 16px ;
-  display: flex ;
-  flex-direction: column ;
+  top: 116px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .bhcoe_dropdown span img {
@@ -1725,7 +1725,7 @@ header .btn {
   border-radius: 12px;
   border: none;
   font-family: Inter;
-  font-size:16px;
+  font-size: 16px;
   font-weight: 600;
   color: #545454;
 }
@@ -1845,10 +1845,7 @@ header .btn {
   /* width: 100%; */
   /* margin: auto; */
   height: fit-content;
-
-  border-color: white;
-  border-style: solid;
-  /* border-width: 12px; */
+ 
 }
 
 .hiw_cards {
@@ -1925,6 +1922,7 @@ header .btn {
   top: 11rem;
 
   color: #FFFFFF;
+  border: 16px solid white;
 
 }
 
