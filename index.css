@@ -52,7 +52,7 @@ ul li {
 
   align-items: center;
   max-width: 100%;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 1);
   backdrop-filter: blur(8px);
 
   padding: 14px 40px 14px 8px;
@@ -597,6 +597,7 @@ header .btn {
 
 
 @media screen and (max-width: 768px) {
+  
   .hero_stats-wrapper {
     padding: 0 9px;
   }
@@ -2688,3 +2689,95 @@ form_ input {
 
   }
 }
+
+
+
+
+
+/* testing navbar css */
+/* Navigation styles */
+/* .nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item-wrapper li {
+  margin: 0 20px;
+}
+
+.nav-item-wrapper li:first-child {
+  margin-left: 0;
+}
+
+.nav-item-wrapper li:last-child {
+  margin-right: 0;
+}
+
+.nav-item-wrapper a {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-item-wrapper a:hover {
+  color: #1a73e8;
+}
+
+.nav-item-wrapper li {
+  margin: 0 10px;
+  transform: translateX(10%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.sticky-top .nav-item-wrapper li {
+  transform: translateX(-50%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.sticky-top .nav-bar {
+  justify-content: space-between;
+}
+
+.sticky-top .nav-item-wrapper {
+  justify-content: center;
+}
+
+.sticky-top .book-consultation-btn {
+  display: block;
+}
+
+/* Book consultation button styles */
+/* .book-consultation-btn {
+  overflow: hidden;
+  border: unset;
+  border-radius: 10px;
+  transition: all 200ms !important;
+  align-items: center !important;
+  padding: 16px 24px;
+  gap: 8px;
+  width: fit-content;
+  height: 56px;
+  background: #00b9e3;
+  border-radius: 40px;
+  color: #ffffff;
+  border: #00b9e3;
+  display: none;
+}
+
+.book-consultation-btn:hover {
+  background-color: #1e88e5;
+}  */
