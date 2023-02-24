@@ -347,7 +347,7 @@ header .btn {
   gap: 8px;
   position: absolute;
   width: 332px;
-  height: 172px;
+  /* height: 172px; */
   right: -7px;
   /* margin-top: 116px !important; */
   top: 116px;
@@ -369,6 +369,7 @@ header .btn {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin-right: 16px;
   /* or 133% */
 
   font-feature-settings: 'cv05' on;
