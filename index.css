@@ -343,20 +343,19 @@ header .btn {
 }
 
 .bhcoe_dropdown {
-  padding: 8px 8px 24px 24px !important ;
-  gap: 8px !important;
-  position: absolute !important;
-  width: 332px !important;
-  height: 172px !important;
-  right: -7px !important;
-  /* margin-top: 116px !important; */
-  top: 116px !important;
-  background: #FFFFFF !important;
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08) !important;
-  border-radius: 16px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  cursor: pointer !important;
+  padding: 8px 8px 24px 24px;
+  gap: 8px;
+  position: absolute;
+  width: 332px;
+  height: 172px;
+  right: -7px;
+  top: 116px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .bhcoe_dropdown span img {
@@ -2046,7 +2045,7 @@ header .btn {
     margin-bottom: 40px;
   }
 
-/* 
+  /* 
   .this_is_how {
     display: none !important;
   } */
@@ -2074,10 +2073,10 @@ header .btn {
 }
 
 /* reference code */
-@media screen and (max-width: 991px){
-.block__temp {
+@media screen and (max-width: 991px) {
+  .block__temp {
     height: 32rem;
-}
+  }
 }
 
 /* form */
