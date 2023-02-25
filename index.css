@@ -1038,7 +1038,7 @@ header .btn {
 
   }
 }
- 
+
 
 @media screen and (max-width: 991px) {
   .sections_wrapper {
@@ -1052,6 +1052,7 @@ header .btn {
     max-width: 100%;
     height: fit-content;
   }
+
   .feature_section-title h2 {
     font-size: 40px;
     /* line-height: 40px; */
@@ -2472,23 +2473,23 @@ form_ input {
   cursor: pointer;
 }
 
-#cllp>h3:after {
+#cllp:after {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   position: absolute;
   right: 5%;
   justify-content: space-between !important;
   font-weight: 600;
-  /* transition: all linear 0.5s !important; */
+  transition: all linear 0.5s !important;
+
 }
 
-#cllp>h3[aria-expanded="true"]:after {
-  /* content: "\f068"; */
-  transform: rotate(46deg);
+#cllp[aria-expanded="true"]:after {
+  transform: rotate(-46deg);
   color: grey;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  /* transition: all linear 0.5s !important; */
+  transition: all linear 0.5s !important;
 }
 
 #cllp>h3 {
@@ -2503,11 +2504,7 @@ form_ input {
   color: #000000;
 }
 
-.collapse {
-  /* transition: all linear 1s !important; */
-
-}
-
+ 
 .faq-collapse {
   width: fit-content;
   height: fit-content;
@@ -2522,14 +2519,18 @@ form_ input {
   margin-top: -32px;
 }
 
+.faq-collapse P {
+  margin-bottom: 0;
+}
+
 .faq_list_wrapper {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
 
-#aa {
-  transition: all linear 1s !important;
+#demo {
+  transition: all linear 0.5s !important;
 
 }
 
