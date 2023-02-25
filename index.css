@@ -713,7 +713,7 @@ header .btn {
   border-radius: 40px;
   position: relative;
   margin: -6rem auto 1rem !important;
-      z-index: 3;
+   z-index: 3;
 }
 
 .stats-title {
@@ -2459,7 +2459,7 @@ form_ input {
   justify-content: space-between !important;
   font-weight: 600;
   transition: all linear 0.5s !important;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 #cllp[aria-expanded="true"]:after {
@@ -2467,7 +2467,7 @@ form_ input {
   color: grey;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   transition: all linear 0.5s !important;
 }
 
@@ -2503,7 +2503,7 @@ form_ input {
 .faq_list_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
 }
 
 
