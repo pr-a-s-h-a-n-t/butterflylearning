@@ -713,6 +713,7 @@ header .btn {
   border-radius: 40px;
   position: relative;
   margin: -6rem auto 1rem !important;
+      z-index: 3;
 }
 
 .stats-title {
@@ -1969,7 +1970,7 @@ header .btn {
 
 .this_is_how {
   position: sticky;
-  top: 8rem;
+  top: 10rem;
   height: 35rem;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
@@ -2005,7 +2006,7 @@ header .btn {
   background: #F7F7F7;
   border-radius: 40px;
   position: sticky;
-  top: 8rem;
+  top: 10rem;
   border: 16px solid white;
    
 }
@@ -2164,7 +2165,7 @@ header .btn {
   .this_is_how_sm {
     display: block !important;
     position: sticky !important;
-    top: 8rem;
+    top: 10rem;
     height: 20rem;
     background-image: url(./assets/thisIsHow.png);
     border-radius: 40px;
@@ -2458,7 +2459,7 @@ form_ input {
   justify-content: space-between !important;
   font-weight: 600;
   transition: all linear 0.5s !important;
-
+  font-size: 1.4rem;
 }
 
 #cllp[aria-expanded="true"]:after {
@@ -2466,6 +2467,7 @@ form_ input {
   color: grey;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
+  font-size: 1.4rem;
   transition: all linear 0.5s !important;
 }
 
@@ -2501,7 +2503,7 @@ form_ input {
 .faq_list_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 40px;
 }
 
 
@@ -2523,6 +2525,16 @@ form_ input {
     display: flex;
     display: contents;
   }
+  
+#cllp:after {
+ 
+  font-size: 1.1rem;
+}
+
+#cllp[aria-expanded="true"]:after {
+  font-size: 1.1rem;
+
+}
 
   .faq_title {
     width: 311px;
@@ -2536,7 +2548,7 @@ form_ input {
   .faq_list_wrapper {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
     margin-top: 40px;
   }
 }
@@ -2796,7 +2808,7 @@ form_ input {
   .train_logo img {
     width: 66.81px !important;
     height: 27.22px !important;
-    margin-left: -7rem;
+      margin-left: -7.2rem;
     margin-bottom: -2.3rem;
 
   }
