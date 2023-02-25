@@ -2167,14 +2167,11 @@ header .btn {
 
 
   #hiw_card1 img {
-
     width: 109.56px;
     height: 100px;
-
   }
 
   #hiw_card2 img {
-
     width: 135.28px;
     height: 100px;
   }
@@ -2192,10 +2189,8 @@ header .btn {
 @media screen and (max-width: 991px) {
 
   .hiw_cards h3 {
-
     font-size: 28px;
     line-height: 40px;
-
     margin-bottom: 0;
   }
 
@@ -2610,7 +2605,10 @@ form_ input {
   height: 64px;
 
 }
-
+#footer_left_logo img{
+  width: 192.98px;
+  height: 64px;
+}
 .footer_Butterfly_Logo-container {
   width: 100%;
   display: flex;
@@ -2832,6 +2830,11 @@ form_ input {
   #sm_full_width_list_container{
     width: 100% !important;
   }
+/* 
+  #footer_left_logo img{
+    width: 192.98px;
+    height: 64px;
+  } */
 }
 
 @media screen and (max-width: 991px) {
@@ -2849,7 +2852,7 @@ form_ input {
 }
 }
 /* inline css to external css start */
-.footer_Butterfly_Logo img {
+.footer_Butterfly_Logo_right img {
   width: 88px;
   height: 32px;
 }
