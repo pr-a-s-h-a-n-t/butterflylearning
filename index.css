@@ -1519,17 +1519,12 @@ header .btn {
     line-height: 24px;
 
   }
-
-
-
-
-
 }
 
 @media screen and (max-width: 1438px) {
   .testimonials_card-scroll-wrapper {
     width: 100%;
-    /* margin-top: 1rem; */
+  
   }
 
   .testimonials_title-card {
@@ -1584,7 +1579,7 @@ header .btn {
   padding: 0px;
   gap: 24px;
   width: 100%;
-  /* height: 1728px; */
+ 
 }
 
 .services_title-ourService h6 {
@@ -1608,7 +1603,6 @@ header .btn {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  /* identical to box height, or 117% */
   color: #d48971;
 
 }
@@ -1623,7 +1617,6 @@ header .btn {
   padding: 64px 24px 24px 64px;
   gap: 616px;
   width: 100%;
-  /* height: 560px; */
   position: sticky;
   top: 22%;
   cursor: pointer;
@@ -1647,7 +1640,6 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-
   width: 524px;
   height: 472px;
 }
@@ -1655,16 +1647,11 @@ header .btn {
 .services_cards1-content>h2 {
   max-width: 524px;
   min-height: 58px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 58px;
-  /* identical to box height */
-
-  /* Grey/50 */
-
+  line-height: 58px; 
   color: #f7f7f7;
 }
 
@@ -1747,7 +1734,6 @@ header .btn {
     margin-bottom: 0;
     font-size: 32px;
     line-height: 40px;
-
     max-width: 311px;
   }
 
@@ -1820,14 +1806,7 @@ header .btn {
     margin: 0 16px !important;
   }
 }
-
-
-
-
-
-
-
-
+ 
 
 /* ===============end=============== */
 
@@ -1863,12 +1842,9 @@ header .btn {
 
 .why_content {
   max-width: fit-content;
-
-  /* column-gap: 24px; */
 }
 
 .why_content div h3 {
-  /* max-width: auto; */
   min-height: 72px;
   font-family: "Inter";
   font-style: normal;
@@ -1951,7 +1927,6 @@ header .btn {
   justify-content: center;
   gap: 56px;
   max-width: 100%;
-  /* height: 1780px; */
   margin: 0 80px !important;
 }
 
@@ -1995,7 +1970,6 @@ header .btn {
 .this_is_how {
   position: sticky;
   top: 8rem;
-  /* max-width: 845px; */
   height: 35rem;
   background-image: url(./assets/thisIsHow.png);
   border-radius: 40px;
@@ -2003,10 +1977,8 @@ header .btn {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: auto; */
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   border-style: solid;
   border-width: 12px;
   border-color: white;
@@ -2020,11 +1992,7 @@ header .btn {
   align-items: flex-start;
   padding: 0px;
   gap: 44px;
-  /* width: 25.6875rem; */
-  /* width: 100%; */
-  /* margin: auto; */
   height: fit-content;
-
 }
 
 .hiw_cards {
@@ -2034,37 +2002,24 @@ header .btn {
   padding: 48px;
   gap: 24px;
   width: 100%;
-  /* position: sticky;
-  top: 2rem; */
-  /* width: 100%;
-  height: 384px; */
   background: #F7F7F7;
   border-radius: 40px;
   position: sticky;
   top: 8rem;
   border: 16px solid white;
-  /* margin: auto; */
+   
 }
 
 #hiw_card1 {
-  width: 100%;
-  /* height: 384px; */
-
+  width: 100%; 
 }
 
 #hiw_card2 {
   width: 100%;
-
-  /* height: 464px; */
-
 }
 
 #hiw_card3 {
-
   width: 100%;
-
-  /* height: 404px; */
-
 }
 
 .hiw_cards h3 {
@@ -2092,11 +2047,9 @@ header .btn {
 .hiw_book_Consultation_card {
   display: flex;
   flex-direction: column;
-  /* padding: 16px 24px; */
   padding: 48px;
   gap: 2.5rem;
   width: 100%;
-  /* height: 312px; */
   height: auto;
   background: #3b9579;
   border-radius: 40px;
@@ -2123,7 +2076,6 @@ header .btn {
   align-items: center;
   padding: 16px 24px;
   gap: 8px;
-  /* width: 234px; */
   width: auto;
   min-height: 56px;
   background: #f7f7f7;
@@ -2182,29 +2134,11 @@ header .btn {
     gap: 24px;
     display: flex !important;
     flex-direction: column;
-    /* width: 343px; */
-    /* height: 1400px; */
-
   }
 
   .hiw_cards {
-    padding: 32px;
-    /* gap: 24px;
-    max-width: 100%;
-    height: 328px;  */
-    /* position: sticky;
-    top: 26%; */
-    /* margin: auto; */
+    padding: 32px; 
   }
-
-  .this_is_how {
-    /* max-width: 100%;
-    height: 228.67px;
-    border-radius: 40px; */
-    /* position: sticky;
-    top: 26%; */
-  }
-
   .hiw_book_Consultation_card {
     padding: 32px;
     min-height: 22rem;
@@ -2218,21 +2152,11 @@ header .btn {
   .hiw_book_Consultation_card h3 {
     font-size: 24px;
     line-height: 32px;
-  }
-
-
-
+  } 
   .hiw_title-wrapper {
     margin: 0;
     min-height: 108px;
   }
-
-  .how_it_works {
-    /* gap: 0 !important;
-    display: flex;
-    flex-direction: column; */
-  }
-
   .this_is_how {
     display: none;
   }
@@ -2255,10 +2179,7 @@ header .btn {
     border-color: white;
     margin-bottom: 24px;
     margin-top: 40px;
-  }
-
-
-
+  } 
   #hiw_card1 img {
     width: 109.56px;
     height: 100px;
@@ -2270,17 +2191,12 @@ header .btn {
   }
 
   #hiw_card3 img {
-
     width: 98.85px;
     height: 100px;
-
-
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
   .hiw_cards h3 {
     font-size: 28px;
     line-height: 40px;
@@ -2301,16 +2217,12 @@ header .btn {
     line-height: 40px;
     font-weight: 700;
   }
-
-
-
 }
 
 
-
-
-
 /* form */
+
+
 .contact-layout-wrapper {
   max-width: 100%;
   min-height: 588px;
@@ -2318,11 +2230,7 @@ header .btn {
   padding: 56px 64px;
   justify-content: space-between;
   align-items: flex-start;
-
-  /* gap: 393px; */
-  isolation: isolate;
-
-  /* width: 1280px; */
+  isolation: isolate; 
   min-height: 496px;
   margin: 0 80px 80px;
   background: #ffe1d7;
@@ -2348,9 +2256,7 @@ label>span {
 }
 
 .form_wrapper {
-  /* display: flex;
-
-  flex-direction: column; */
+  
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
@@ -2376,7 +2282,7 @@ form label {
   display: none;
 }
 
-/* @media (max-width: 992px) { */
+ 
 @media (max-width: 800px) {
 
   .contact-layout-wrapper {
@@ -2435,7 +2341,7 @@ form label {
 .contact_title-wrapper {
   gap: 50px;
   width: fit-content;
-  /* height: 132px; */
+  
 }
 
 .contact_title {
@@ -2504,6 +2410,8 @@ form_ input {
   color: #FFFFFF;
 }
 
+
+
 /* ------faq--------- */
 
 .faq {
@@ -2529,13 +2437,8 @@ form_ input {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.2em;
   text-transform: uppercase;
-
-  /* Grey/400 */
-
   color: #AFAFAF;
 }
 
@@ -2574,7 +2477,6 @@ form_ input {
   line-height: 32px;
   display: contents;
   font-feature-settings: "cv05" on;
-  /* transition: all linear 1s !important; */
   color: #000000;
 }
 
@@ -2589,7 +2491,6 @@ form_ input {
   line-height: 24px;
   font-feature-settings: "cv05" on;
   color: #545454;
-  /* transition: all linear 1s !important; */
   margin-top: -32px;
 }
 
@@ -2603,6 +2504,8 @@ form_ input {
   gap: 48px;
 }
 
+
+/* collaspe para transition */
 #demo {
   transition: all linear 0.5s !important;
 
@@ -2638,7 +2541,7 @@ form_ input {
   }
 }
 
-/* } */
+ 
 /* -----footer-------- */
 
 .footer {
@@ -2657,17 +2560,13 @@ form_ input {
   box-sizing: border-box;
 }
 
-.footer {}
+ 
 
 .footer_list-wrapper {
   color: #000000 !important;
   width: auto;
 }
-
-.footer_list-wrapper ul li a {
-  /* color: #000000 !important; */
-}
-
+ 
 .footer-logo-wrapper {
   display: flex;
   align-items: baseline;
@@ -2682,12 +2581,9 @@ form_ input {
 .train_logo {
   width: 108px;
   height: 44px;
-
   align-items: bottom !important;
   margin-left: -8px;
   margin-top: auto;
-
-
   align-items: bottom !important;
   margin-left: -8px;
 
@@ -2696,7 +2592,6 @@ form_ input {
 .footer_Butterfly_Logo img {
   width: 192.98px;
   height: 64px;
-
 }
 
 #footer_left_logo img {
@@ -2806,18 +2701,12 @@ form_ input {
 @media screen and (max-width: 768px) {
   .footer {
     padding: 2.5rem 1.5rem 24px !important;
-    /* height: fit-content; */
     max-height: 80vh;
-    /* max-height: 845px; */
-    /* max-height: 100vh !important; */
-
-
-
   }
 
   .footer_list-wrapper {
     margin-top: 1.5rem !important;
-    /* margin: 24px auto !important; */
+     
   }
 
   .footer-logo-wrapper {
@@ -2914,40 +2803,34 @@ form_ input {
 
   .footer_list_container {
     margin-left: 0 !important;
-    /* width: 50%;  */
+    
   }
 
   .footer_list-wrapper {
     justify-content: flex-start;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
+    
   }
 
   #sm_full_width_list_container {
     width: 100% !important;
   }
 
-  /* 
-  #footer_left_logo img{
-    width: 192.98px;
-    height: 64px;
-  } */
+   
 }
 
 @media screen and (max-width: 991px) {
   .footer_list_container {
-    /* width: auto; */
+
     width: 37% !important;
     margin-left: 0 !important;
   }
 
   .footer_list-wrapper {
-    /* justify-content: flex-start !important; */
     width: 100%;
     display: flex;
     justify-content: space-between !important;
-    /* flex-direction: column; */
     margin: 0;
   }
 }
