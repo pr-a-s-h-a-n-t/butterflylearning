@@ -1708,8 +1708,8 @@ header .btn {
 }
 
 .services_card_navigation-arrow img {
-  width: 27.5px;
-  height: 23px;
+  width: 16px;
+  height: 13px;
 }
 
 @media (max-width: 768px) {
@@ -2538,6 +2538,7 @@ form_ input {
 
   .faq_title {
     width: 311px;
+    padding-right: 0;
   }
 
   .faq_title h2 {
@@ -2588,6 +2589,7 @@ form_ input {
 .abc_logo {
   width: 120px;
   height: 118px;
+  margin-bottom: 4px;
 }
 
 .train_logo {
@@ -2596,9 +2598,7 @@ form_ input {
   align-items: bottom !important;
   margin-left: -8px;
   margin-top: auto;
-  align-items: bottom !important;
-  margin-left: -8px;
-
+  margin-bottom: 4px;
 }
 
 .footer_Butterfly_Logo img {
