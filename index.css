@@ -1665,7 +1665,7 @@ header .btn {
     gap: 8px;
     width: 343px;
     height: 108px;
-    top: 0.2rem !important;
+    top: 1rem !important;
   }
 
   .services_title-professionals h2 {
@@ -1913,7 +1913,7 @@ header .btn {
   align-items: center;
   text-align: center;
   position: sticky;
-  top: 0.2rem !important;
+  top: 1rem !important;
   margin: 0px auto 56px;
 }
 
@@ -2149,6 +2149,7 @@ header .btn {
 
   .hiw_title-wrapper {
     margin: 0;
+    min-height: 108px;
   }
 
   .how_it_works {
