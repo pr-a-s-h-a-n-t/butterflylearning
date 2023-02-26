@@ -713,7 +713,7 @@ header .btn {
   border-radius: 40px;
   position: relative;
   margin: -6rem auto 1rem !important;
-   z-index: 3;
+  z-index: 3;
 }
 
 .stats-title {
@@ -1525,7 +1525,7 @@ header .btn {
 @media screen and (max-width: 1438px) {
   .testimonials_card-scroll-wrapper {
     width: 100%;
-  
+
   }
 
   .testimonials_title-card {
@@ -1580,7 +1580,7 @@ header .btn {
   padding: 0px;
   gap: 24px;
   width: 100%;
- 
+
 }
 
 .services_title-ourService h6 {
@@ -1623,6 +1623,16 @@ header .btn {
   cursor: pointer;
 }
 
+/* .services_cards1 p,
+.services_cards2 p,
+.services_cards3 p {
+  --max-lines: 3;
+  position: relative;
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+} */
+
+
 .services_cards1 {
   background: linear-gradient(90deg,
       rgba(0, 0, 0, 0.4) 0%,
@@ -1652,7 +1662,7 @@ header .btn {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 58px; 
+  line-height: 58px;
   color: #f7f7f7;
 }
 
@@ -1739,11 +1749,53 @@ header .btn {
   }
 
   .services_cards1-content>p {
+
     font-size: 14px;
     line-height: 20px;
     margin-top: -1rem;
     margin-bottom: 0;
+    /* text-overflow: ellipsis;
+    word-wrap: break-word;
+     */
+    /* height: 3rem !important; */
+    /* overflow: hidden; */
+    /* white-space: pre-wrap; */
+   
   }
+  
+ 
+ 
+  /* .services_cards1 p,
+  .services_cards2 p,
+  .services_cards3 p {
+    --max-lines: 3;
+    --lh: 20px;
+     
+    max-width: 280px;
+    max-height: calc( var(--lh) * var(--max-lines));
+    overflow: hidden;
+  }
+
+  .services_cards1 p::before {
+    content: "...";
+  }
+  .services_cards2 p::before {
+    content: "...";
+  }
+  .services_cards3 p ::before {
+    content: "...";
+  }
+
+  .services_cards1 p::after {
+     
+    content: "...";
+  }
+  .services_cards2 p::after {
+    content: "";
+  }
+  .services_cards3 p::after {
+    content: "";
+  } */
 
   .services_cards1-content>h2 {
     font-size: 24px;
@@ -1807,7 +1859,7 @@ header .btn {
     margin: 0 16px !important;
   }
 }
- 
+
 
 /* ===============end=============== */
 
@@ -2008,11 +2060,11 @@ header .btn {
   position: sticky;
   top: 10rem;
   border: 16px solid white;
-   
+
 }
 
 #hiw_card1 {
-  width: 100%; 
+  width: 100%;
 }
 
 #hiw_card2 {
@@ -2138,8 +2190,9 @@ header .btn {
   }
 
   .hiw_cards {
-    padding: 32px; 
+    padding: 32px;
   }
+
   .hiw_book_Consultation_card {
     padding: 32px;
     min-height: 22rem;
@@ -2153,11 +2206,13 @@ header .btn {
   .hiw_book_Consultation_card h3 {
     font-size: 24px;
     line-height: 32px;
-  } 
+  }
+
   .hiw_title-wrapper {
     margin: 0;
     min-height: 108px;
   }
+
   .this_is_how {
     display: none;
   }
@@ -2180,7 +2235,8 @@ header .btn {
     border-color: white;
     margin-bottom: 24px;
     margin-top: 40px;
-  } 
+  }
+
   #hiw_card1 img {
     width: 109.56px;
     height: 100px;
@@ -2231,7 +2287,7 @@ header .btn {
   padding: 56px 64px;
   justify-content: space-between;
   align-items: flex-start;
-  isolation: isolate; 
+  isolation: isolate;
   min-height: 496px;
   margin: 0 80px 80px;
   background: #ffe1d7;
@@ -2257,7 +2313,7 @@ label>span {
 }
 
 .form_wrapper {
-  
+
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
@@ -2283,7 +2339,7 @@ form label {
   display: none;
 }
 
- 
+
 @media (max-width: 800px) {
 
   .contact-layout-wrapper {
@@ -2342,7 +2398,7 @@ form label {
 .contact_title-wrapper {
   gap: 50px;
   width: fit-content;
-  
+
 }
 
 .contact_title {
@@ -2498,6 +2554,7 @@ form_ input {
 
 .faq-collapse P {
   margin-bottom: 0;
+  margin-top: 8px;
 }
 
 .faq_list_wrapper {
@@ -2525,16 +2582,16 @@ form_ input {
     display: flex;
     display: contents;
   }
-  
-#cllp:after {
- 
-  font-size: 1.1rem;
-}
 
-#cllp[aria-expanded="true"]:after {
-  font-size: 1.1rem;
+  #cllp:after {
 
-}
+    font-size: 1.1rem;
+  }
+
+  #cllp[aria-expanded="true"]:after {
+    font-size: 1.1rem;
+
+  }
 
   .faq_title {
     width: 311px;
@@ -2554,7 +2611,7 @@ form_ input {
   }
 }
 
- 
+
 /* -----footer-------- */
 
 .footer {
@@ -2573,13 +2630,13 @@ form_ input {
   box-sizing: border-box;
 }
 
- 
+
 
 .footer_list-wrapper {
   color: #000000 !important;
   width: auto;
 }
- 
+
 .footer-logo-wrapper {
   display: flex;
   align-items: baseline;
@@ -2718,7 +2775,7 @@ form_ input {
 
   .footer_list-wrapper {
     margin-top: 1.5rem !important;
-     
+
   }
 
   .footer-logo-wrapper {
@@ -2808,34 +2865,34 @@ form_ input {
   .train_logo img {
     width: 66.81px !important;
     height: 27.22px !important;
-      margin-left: -7.2rem;
-    margin-bottom: -2.3rem;
+    margin-left: -7.2rem;
+    margin-bottom: -2.1rem;
 
   }
 
   .footer_list_container {
     margin-left: 0 !important;
-    
+
   }
 
   .footer_list-wrapper {
     justify-content: flex-start;
     width: 100%;
     display: flex;
-    
+
   }
 
   #sm_full_width_list_container {
     width: 100% !important;
   }
 
-   
+
 }
 
 @media screen and (max-width: 991px) {
   .footer_list_container {
 
-    width: 37% !important;
+    /* width: 37% !important; */
     margin-left: 0 !important;
   }
 
