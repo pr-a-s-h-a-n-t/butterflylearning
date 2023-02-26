@@ -990,7 +990,7 @@ header .btn {
     /* width: 343px; */
     max-width: 100%;
     height: 325.25px;
-    /* background: #F5FBFC; */
+    
     border: 16px solid #FFFFFF;
     border-radius: 40px;
   }
@@ -1076,7 +1076,9 @@ header .btn {
   flex-direction: row !important;
   align-items: flex-start;
   isolation: isolate;
-  width: 100%;
+  /* width: 100%; */
+ max-width: 100%;
+
   overflow-x: hidden;
   min-height: 655px;
   margin: 0 0 0 80px !important;
@@ -1538,7 +1540,7 @@ padding-left: 60px;
   }
 
   .testimonials_title-card {
-    margin: auto;
+    /* margin: auto; */
   }
 }
 
