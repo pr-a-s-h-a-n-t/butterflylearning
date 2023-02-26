@@ -250,8 +250,8 @@ header .btn {
     border-radius: 24px 0px 0px 24px;
     top: 0;
     right: 0;
-    /* transition: all ease-in-out 1.26s !important; */
-    /* -webkit-transition: all 1.26s ease-in-out !important; */
+  
+   
     color: #121212;
   }
 
@@ -313,7 +313,7 @@ header .btn {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 24px 16px 0;
+  margin: 24px 7px 0;
   gap: 1rem;
   max-width: 27.6875rem;
   min-height: 12rem;
@@ -476,10 +476,11 @@ header .btn {
   display: flex;
   flex-direction: row;
 
-  padding: 16px 24px;
+  padding: 12px 24px;;
   gap: 8px;
-  width: 229px;
-  height: 56px;
+   width: 207px;
+  height: 44px;
+
   background: #00b9e3;
   border-radius: 40px;
   font-family: "Inter";
@@ -490,6 +491,12 @@ header .btn {
   text-align: center;
   color: #ffffff;
   border: #00b9e3;
+ 
+ 
+
+ 
+ 
+ 
 }
 
 #hero_btn_position {
@@ -511,21 +518,31 @@ header .btn {
 .title-content-btn_n:before {
   content: attr(data-hover);
   position: absolute;
-  top: 1.1em;
+  /* top: 1.1em; */
   left: 0;
   width: 100%;
   opacity: 0;
   transform: translate(0, 100%);
   transition: all .3s ease-in-out;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
 }
 
 .title-content-btn_n p {
-  font-family: "Inter";
+  /* font-family: "Inter";
 
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
+  text-align: center; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
 
   transition: all .3s ease-in-out;
 }
@@ -898,7 +915,7 @@ header .btn {
 
 .car1 {
   background: #fffaf8;
-  
+
 }
 
 .car2 {
@@ -990,7 +1007,7 @@ header .btn {
     /* width: 343px; */
     max-width: 100%;
     height: 325.25px;
-    
+
     border: 16px solid #FFFFFF;
     border-radius: 40px;
   }
@@ -1056,7 +1073,7 @@ header .btn {
   }
 
   .feature_section-cards {
-    top: 8rem;
+    top: 10rem;
     padding: 32px;
     margin: 0 auto;
     max-width: 100%;
@@ -1077,7 +1094,7 @@ header .btn {
   align-items: flex-start;
   isolation: isolate;
   /* width: 100%; */
- max-width: 100%;
+  max-width: 100%;
 
   overflow-x: hidden;
   min-height: 655px;
@@ -1161,11 +1178,11 @@ header .btn {
   /* set the height to a fixed value */
 
   /* for car overlapping */
-position: absolute;
-margin-left: 488px;
-padding: 0px 0px 0px 24px;
-/* padding: 0; */
-padding-left: 60px;
+  position: absolute;
+  margin-left: 488px;
+  padding: 0px 0px 0px 24px;
+  /* padding: 0; */
+  padding-left: 60px;
 }
 
 .testimonials_card-scroll-wrapper::-webkit-scrollbar {
@@ -1466,10 +1483,15 @@ padding-left: 60px;
     margin: auto;
     width: 343px;
     margin-top: 24px;
+    position: relative;
 
- 
+
   }
 
+  /* temp css  */
+  .testimonials_title-card {
+    margin: auto;
+  }
 
 
   .testimonials_title-card-text h2 {
@@ -1729,8 +1751,10 @@ padding-left: 60px;
 }
 
 .services_card_navigation-arrow img {
-  width: 16px;
-  height: 13px;
+  width: 27.5px;
+  height: 23px;
+
+
 }
 
 @media (max-width: 768px) {
@@ -1742,6 +1766,12 @@ padding-left: 60px;
 
   .services_cards-wrapper {
     width: 100% !important;
+  }
+
+  .services_card_navigation-arrow img {
+    width: 16px;
+    height: 13px;
+
   }
 
   .services_title {
@@ -1765,19 +1795,19 @@ padding-left: 60px;
     line-height: 20px;
     margin-top: -1rem;
     margin-bottom: 0;
-     
-   
+
+
   }
 
   /* service cards text truncate code for mobile view */
   .truncate-line-clamp_true {
     display: -webkit-box;
-     -webkit-line-clamp: 4;
-     -webkit-box-orient: vertical; 
-     width: 250px;
-     overflow: hidden;
-   }
- 
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    width: 250px;
+    overflow: hidden;
+  }
+
   .services_cards1-content>h2 {
     font-size: 24px;
     line-height: 32px;
@@ -2141,6 +2171,7 @@ padding-left: 60px;
     font-size: 32px !important;
     line-height: 40px !important;
     color: #3b9579;
+    padding: 0 16px;
   }
 
   .hiw_cards h3 {
@@ -2386,6 +2417,7 @@ form label {
   gap: 1rem;
   max-width: 19.75rem;
   min-height: 8.25rem;
+
 }
 
 .contact_title h2 {
@@ -2492,7 +2524,7 @@ form_ input {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   position: absolute;
-  right: 5%;
+  right: 4%;
   justify-content: space-between !important;
   font-weight: 600;
   transition: all linear 0.5s !important;
