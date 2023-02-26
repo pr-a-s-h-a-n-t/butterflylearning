@@ -2240,7 +2240,7 @@ line-height: 20px;
     display: block !important;
     position: sticky !important;
     top: 10rem;
-    height: 20rem;
+    min-height: 228.67px;
     background-image: url(./assets/thisIsHow.png);
     border-radius: 40px;
     background-size: cover;
