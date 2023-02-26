@@ -1557,12 +1557,19 @@ line-height: 20px;
 
 @media screen and (max-width: 1438px) {
   .testimonials_card-scroll-wrapper {
-    /* width: 100%; */
+       /* width: 100%; */
+       width: fit-content;
+       /* overflow: hidden; */
+       position: relative;
+       margin: auto;
+       padding: 0;
+   
+
 
   }
 
   .testimonials_title-card {
-    /* margin: auto; */
+    margin: auto;
   }
 }
 
