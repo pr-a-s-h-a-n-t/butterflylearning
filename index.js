@@ -10,7 +10,24 @@ let header = document.querySelector("#header");
 let body = document.querySelector(".box");
 let nav = document.querySelector(".nav-bar");
 
- 
+
+// js code for truncating the service cards text
+window.onload = function () {
+  let para_truncate1 = document.querySelector("#truncate_para_1")
+  let para_truncate2 = document.querySelector("#truncate_para_2")
+  let para_truncate3 = document.querySelector("#truncate_para_3")
+  var targetWidth = 768;
+  if ($(window).width() <= targetWidth) {
+      para_truncate1.classList.add("truncate-line-clamp_true");
+      para_truncate2.classList.add("truncate-line-clamp_true");
+      para_truncate3.classList.add("truncate-line-clamp_true");
+      console.log("para_truncate.classList.remove")
+
+  }
+  else {
+      //Add your javascript for screens smaller than 768 here
+  }
+}
 
 menus_btn.addEventListener("click", function () {
   console.log("menu opened");

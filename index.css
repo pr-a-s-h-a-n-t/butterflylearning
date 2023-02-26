@@ -898,6 +898,7 @@ header .btn {
 
 .car1 {
   background: #fffaf8;
+  
 }
 
 .car2 {
@@ -989,7 +990,7 @@ header .btn {
     /* width: 343px; */
     max-width: 100%;
     height: 325.25px;
-    background: #F5FBFC;
+    /* background: #F5FBFC; */
     border: 16px solid #FFFFFF;
     border-radius: 40px;
   }
@@ -1156,6 +1157,13 @@ header .btn {
   height: 400px;
   transition: cursor 10s ease-in-out;
   /* set the height to a fixed value */
+
+  /* for car overlapping */
+position: absolute;
+margin-left: 488px;
+padding: 0px 0px 0px 24px;
+/* padding: 0; */
+padding-left: 60px;
 }
 
 .testimonials_card-scroll-wrapper::-webkit-scrollbar {
@@ -1457,6 +1465,7 @@ header .btn {
     width: 343px;
     margin-top: 24px;
 
+ 
   }
 
 
@@ -1754,49 +1763,19 @@ header .btn {
     line-height: 20px;
     margin-top: -1rem;
     margin-bottom: 0;
-    /* text-overflow: ellipsis;
-    word-wrap: break-word;
-     */
-    /* height: 3rem !important; */
-    /* overflow: hidden; */
-    /* white-space: pre-wrap; */
+     
    
   }
-  
+
+  /* service cards text truncate code for mobile view */
+  .truncate-line-clamp_true {
+    display: -webkit-box;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical; 
+     width: 250px;
+     overflow: hidden;
+   }
  
- 
-  /* .services_cards1 p,
-  .services_cards2 p,
-  .services_cards3 p {
-    --max-lines: 3;
-    --lh: 20px;
-     
-    max-width: 280px;
-    max-height: calc( var(--lh) * var(--max-lines));
-    overflow: hidden;
-  }
-
-  .services_cards1 p::before {
-    content: "...";
-  }
-  .services_cards2 p::before {
-    content: "...";
-  }
-  .services_cards3 p ::before {
-    content: "...";
-  }
-
-  .services_cards1 p::after {
-     
-    content: "...";
-  }
-  .services_cards2 p::after {
-    content: "";
-  }
-  .services_cards3 p::after {
-    content: "";
-  } */
-
   .services_cards1-content>h2 {
     font-size: 24px;
     line-height: 32px;
