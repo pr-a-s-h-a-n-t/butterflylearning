@@ -1557,7 +1557,7 @@ line-height: 20px;
 
 @media screen and (max-width: 1438px) {
   .testimonials_card-scroll-wrapper {
-    width: 100%;
+    /* width: 100%; */
 
   }
 
