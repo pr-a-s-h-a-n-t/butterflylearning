@@ -176,21 +176,13 @@ ul li {
 
 .nav-item-wrapper>li>a {
   height: 20px;
-  /*   */
-
-  /* Body/14px/Semi-bold */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
   text-align: center;
   font-feature-settings: "cv05" on;
-
-  /* Grey/900 */
 
   color: #121212;
 }
@@ -200,9 +192,6 @@ ul li {
   flex-direction: row;
   align-items: flex-start;
   padding: 16px;
-  /* gap: 8px; */
-
-  /* width: 120px; */
   height: 52px;
 }
 
@@ -261,8 +250,7 @@ header .btn {
     height: 480px;
     background: #ffffff;
     border-radius: 24px 0px 0px 24px;
-    top: 0;
-    /* right: 0; */
+    top: 0px;
     right: -160px;
     transition: all ease-in-out 0.56s !important;
     -webkit-transition: all 0.56s ease-in-out !important;
@@ -315,6 +303,7 @@ header .btn {
     height: 52px;
   }
 }
+
 
 /* ===============hero section ======================== */
 .hero_stats-wrapper {
