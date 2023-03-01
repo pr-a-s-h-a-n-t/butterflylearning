@@ -934,6 +934,7 @@ header .btn {
   scroll-behavior: smooth;
   /* height: 330px; */
   flex-direction: column;
+  margin-bottom: 24px;
 }
 
 */
@@ -1068,7 +1069,7 @@ header .btn {
   .feature_section-cards-wrapper {
     padding-top: 1.5rem;
     max-width: 100%;
-    margin: 0;
+    /* margin: 0; */
     display: flex;
     flex-direction: column;
   }
