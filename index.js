@@ -38,6 +38,9 @@ menus_btn.addEventListener("click", function () {
   body.style.display = "block";
   header.style.visibility = "hidden";
   nav.style.visibility = "visible";
+  setTimeout(() => {
+    menus.style.right = "0px";
+  }, 150);
 
   // translateHeroIcon.classList.add("translate");
 });
@@ -66,15 +69,20 @@ menus_btn.addEventListener("click", function () {
 
 close_btn.addEventListener("click", function () {
   console.log("menu closed");
-  menus.classList.remove("active2");
-  resnav.style.display = "none";
-  close_btnid.style.display = "none";
-  menus_btn.style.display = "block";
-  body.style.display = "none";
-  header.style.visibility = "visible";
-  nav.style.visibility = "hidden";
+
+  menus.style.right = "-160px";
+  setTimeout(() => {
+    menus.classList.remove("active2");
+    resnav.style.display = "none";
+    close_btnid.style.display = "none";
+    menus_btn.style.display = "block";
+    body.style.display = "none";
+    header.style.visibility = "visible";
+    nav.style.visibility = "hidden";
+  }, 500);
   // translateHeroIcon.classList.remove("translate");
 });
+
 
 // collaspe
 
