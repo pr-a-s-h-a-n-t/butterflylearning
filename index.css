@@ -493,8 +493,8 @@ header .btn {
   padding: 12px 24px;
   ;
   gap: 8px;
-  width: 207px;
-  height: 44px;
+  width: 229px;
+  height: 56px;
 
   background: #00b9e3;
   border-radius: 40px;
@@ -556,9 +556,9 @@ header .btn {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-
+  font-size: 16px;
+  line-height: 24px;
+  margin:auto;
   transition: all .3s ease-in-out;
 }
 
@@ -711,8 +711,8 @@ header .btn {
 .right {
   position: absolute;
   width: 10px;
-  height: 69px;
-  left: 184px;
+  height: 64px;
+  left: 182px;
   z-index: -1;
   top: 7px;
   background: #ececec;
@@ -732,7 +732,50 @@ header .btn {
     /* left: 80%; */
   }
 
-}
+    .title-content-btn_n {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      margin-left: 1rem;
+      padding: 12px 24px;
+      gap: 8px;
+      width: 207px;
+      height: 44px;
+    
+      background: #00b9e3;
+      border-radius: 40px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      border: #00b9e3;
+    
+    
+    
+    
+    
+    
+    }
+  
+    .title-content-btn_n p {
+      /* font-family: "Inter";
+    
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center; */
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      transition: all .3s ease-in-out;
+    }
+  }
 
 
 
@@ -935,7 +978,7 @@ header .btn {
   /* margin-bottom: 24px; */
   position: sticky;
   top: 1rem;
-  border: 12px solid #FFFFFF;
+  outline: 12px solid #FFFFFF;
 }
 
 .car1 {
