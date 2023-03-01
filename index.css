@@ -1165,6 +1165,29 @@ header .btn {
   /* gap: 24px; */
 }
 
+.testamonial-rocket{
+  position: relative;
+  left: 326px;
+}
+
+.testamonial-sun{
+  position: relative;
+  left: 280px;
+  top: 177px;
+}
+
+@media  screen and (max-width: 768px) {
+
+  .testamonial-rocket{
+  position: relative;
+  left: 273px;
+}
+  .testamonial-sun{
+    position: relative;
+    left: 218px;
+    top: 150px;
+  }
+}
 @media screen and (max-width: 1438px) {
   .testimonials {
     /* max-width: fit-content; */
@@ -2497,7 +2520,7 @@ form label {
 }
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
   .contact-layout-wrapper {
     margin: 0 16px;
