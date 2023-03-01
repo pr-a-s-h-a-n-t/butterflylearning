@@ -101,7 +101,7 @@
         </div>
         <div>
             <div class="hero-image mt-3 mt-md-0" style="position: relative;  ">
-                <div class="hero-title-wrapper d-none  d-md-block  ">
+                <div id="show" class="hero-title-wrapper d-none  d-md-block  ">
                     <h2>
                         Helping unlock the full potential of your child
                     </h2>
@@ -113,6 +113,9 @@
                 <a class="rectangle-container position-absolute" data-bs-toggle="collapse"
                     data-bs-target="#bhcoe_dropdown" aria-expanded="false">
                     <div class="accreditation-container align-middle">
+                    </div>
+                    <div class="right">
+                        
                     </div>
                 </a>
                 <!-- hero-collapse -->
@@ -193,13 +196,15 @@
     </button> -->
 
 
-    <!-- Sections wrapper -->
+    <!-- Sections wrapper start -->
 
     <section class="sections_wrapper ">
 
 
-        <!-- feature -->
 
+
+
+        <!-- feature -->
 
 
         <section class="feature row ">
@@ -322,9 +327,7 @@
             </div>
         </section>
 
-
-
-
+        <!-- feature section end -->
 
 
         <!-- testimonials -->
@@ -640,6 +643,8 @@
         </section>
 
 
+        <!-- testimonials section end -->
+
         <!-- Our Services -->
         <section class="services">
             <div class="services_title">
@@ -667,7 +672,7 @@
                             ABA Therapy
                         </h2>
 
-                         
+
                         <p id="truncate_para_1" class="truncate-line-clamp  ">
                             Butterfly Learnings provides comprehensive developmental & behavioral healthcare
                             support to children.
@@ -734,13 +739,10 @@
 
 
 
-
-
-
-
-
-
         </section>
+
+
+        <!-- Our Services section end -->
 
         <!-- Why us? -->
 
@@ -791,6 +793,7 @@
         </section>
 
 
+        <!-- Why us? section end -->
 
 
         <!-- How it work -->
@@ -802,7 +805,8 @@
                     This is how the magic begins
                 </h2>
             </div>
-            <div class=" this_is_how_sm  position-relative position-sm-sticky ">
+            <div class=" this_is_how_sm  d-md-none    position-sm-sticky ">
+                <!-- <img src="./assets/thisIsHow.png" alt=""> -->
 
             </div>
             <div class="row justify-content-between">
@@ -870,6 +874,7 @@
         </section>
 
 
+        <!-- How it work section end -->
 
 
         <!-- faq -->
@@ -992,19 +997,10 @@
 
         </section>
 
-
-
-
-
-
-
-
-
-
-
+        <!-- faq section end -->
 
         <!-- ==========================
-          contact layout 1
+          contact layout 
       =========================== -->
         <section class="contact-layout">
 
@@ -1057,19 +1053,18 @@
                     </div><!-- /.row -->
                 </div>
             </div><!-- /.container -->
-        </section><!-- /.contact layout 1 -->
+        </section><!-- contact layout  -->
 
 
-
-
-
-
+        <!-- ==========================
+          contact layout  end
+      =========================== -->
     </section>
 
-
+    <!-- ---------------section wrapper end----------------- -->
 
     <!-- ==========================
-          Footer
+          Footer start
       =========================== -->
     <!--  -->
 
@@ -1216,6 +1211,14 @@
             <!-- Copyright -->
     </footer>
 
+<!-- ==========================
+          Footer emd
+      =========================== -->
+    <!--  -->
+
+
+
+
 
     <!-- End of .container -->
 
@@ -1232,7 +1235,7 @@
                 // $('#hiw_card1').css("opacity", 6 - $(window).scrollTop() / 700)
             })
         })
-         
+
 
     </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
