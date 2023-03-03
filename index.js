@@ -107,76 +107,113 @@ close_btn.addEventListener("click", function () {
 // })
 
 /* ------ our service animations start ---- */
-
+/*
 var tl = gsap.timeline({
   scrollTrigger: {
-    trigger: "#main",
-    // markers:true,
-    start: "38% 50%",
-    end: "100% 50%",
+    trigger: ".services",
+    markers:true,
+    start: "top-3rem ",
+    end: " top-8rem   ",
     scrub: 2,
     pin: true,
   },
 });
 tl.to(
-  ".text",
+  ".services_title",
   {
     top: "-7%",
   },
   "a"
 )
   .to(
-    "#card-one",
+    ".services_cards1 ",
     {
       top: "65%",
     },
     "a"
   )
   .to(
-    "#card-two",
+    ".services_cards2 ",
     {
       top: "130%",
     },
     "a"
   )
   .to(
-    "#card-two",
+    ".services_cards2",
     {
       top: "62%",
     },
     "b"
   )
+  // .to(
+  //   "#card-one",
+  //   {
+  //     width: "65%",
+  //     height: "65vh",
+  //   },
+  //   "b"
+  // )
   .to(
-    "#card-one",
-    {
-      width: "65%",
-      height: "65vh",
-    },
-    "b"
-  )
-  .to(
-    "#card-three",
+    ".services_cards1",
     {
       top: "130%",
     },
     "b"
   )
   .to(
-    "#card-three",
+    ".services_cards1",
     {
       top: "50%",
     },
     "c"
   )
-  .to(
-    "#card-two",
-    {
-      width: "70%",
-      height: "70vh",
-    },
-    "c"
-  );
+  // .to(
+  //   "#card-two",
+  //   {
+  //     width: "70%",
+  //     height: "70vh",
+  //   },
+  //   "c"
+  // );
+*/
 
+
+
+ScrollTrigger.create({
+  
+  trigger: '.services_title   ',
+  start: 'top top',
+  endTrigger: '.why_us',
+  end:   ' bottom top  ',
+  pin: '.services_title'
+  
+})
+
+
+ 
+
+ScrollTrigger.create({
+  
+  trigger: ' .feature_section-title   ',
+  start: 'top top',
+  endTrigger: '.testimonials',
+  end:   ' bottom top  ',
+  pin: '.feature_section-title '
+  
+})
+
+// hiw_title-wrapper
+
+// ScrollTrigger.create({
+  
+//   trigger: '#hiw  ',
+//   start: 'top top  ',
+//   endTrigger:'.faq',
+//   end:   ' end top ',
+//   pin: '#hiw '
+  
+// })
 /* ------our service animations end ---- */
 
 // testimonials horizontal drag scroll
