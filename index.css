@@ -1740,8 +1740,8 @@ header .btn {
   gap: 8px;
 
   max-width: 100%;
-  /* position: sticky; */
-  /* top: 5%; */
+  position: sticky;
+  top: 5%;
   height: 88px;
 }
 
