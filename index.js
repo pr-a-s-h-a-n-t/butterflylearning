@@ -180,28 +180,28 @@ tl.to(
 
 
 
-ScrollTrigger.create({
+// ScrollTrigger.create({
   
-  trigger: '.services_title   ',
-  start: 'top top',
-  endTrigger: '.why_us',
-  end:   ' bottom top  ',
-  pin: '.services_title'
+//   trigger: '.services_title   ',
+//   start: 'top top',
+//   endTrigger: '.why_us',
+//   end:   ' bottom top  ',
+//   pin: '.services_title'
   
-})
+// })
 
 
  
 
-ScrollTrigger.create({
+// ScrollTrigger.create({
   
-  trigger: ' .feature_section-title   ',
-  start: 'top top',
-  endTrigger: '.testimonials',
-  end:   ' bottom top  ',
-  pin: '.feature_section-title '
+//   trigger: ' .feature_section-title   ',
+//   start: 'top top',
+//   endTrigger: '.testimonials',
+//   end:   ' bottom top  ',
+//   pin: '.feature_section-title '
   
-})
+// })
 
 // hiw_title-wrapper
 
